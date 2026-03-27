@@ -185,6 +185,9 @@ export default {
 				"content-type": "text/plain; charset=utf-8",
 				"Profile-Update-Interval": `${SUBUpdateTime}`,
 				"Profile-web-page-url": request.url.includes('?') ? request.url.split('?')[0] : request.url,
+				"Cache-Control": "no-store, no-cache, must-revalidate, max-age=0",
+				"Pragma": "no-cache",
+				"Expires": "0",
 				//"Subscription-Userinfo": `upload=${UD}; download=${UD}; total=${total}; expire=${expire}`,
 			};
 
