@@ -18,8 +18,43 @@ https://cfxr.eu.org/getSub
 
 let urls = [];
 let subConverter = "SUBAPI.cmliussss.net"; //在线订阅转换后端，目前使用CM的订阅转换功能。支持自建psub 可自行搭建https://github.com/bulianglin/psub
-let subConfig = "https://raw.githubusercontent.com/cmliu/ACL4SSR/main/Clash/config/ACL4SSR_Online_MultiCountry.ini"; //订阅配置文件
+let subConfig = "https://raw.githubusercontent.com/XavierXIEXIN/CF-Workers-SUB/main/config/ACL4SSR_Online_AIScene_CF.ini"; //订阅配置文件
 let subProtocol = 'https';
+
+const 显式订阅格式映射 = [
+	['b64', 'base64'],
+	['base64', 'base64'],
+	['clash', 'clash'],
+	['sb', 'singbox'],
+	['singbox', 'singbox'],
+	['surge', 'surge'],
+	['quanx', 'quanx'],
+	['loon', 'loon'],
+];
+
+function 获取显式订阅格式(url) {
+	for (const [param, format] of 显式订阅格式映射) {
+		if (url.searchParams.has(param)) return format;
+	}
+	return null;
+}
+
+function 获取订阅请求UA(format) {
+	switch (format) {
+		case 'clash':
+			return 'clash';
+		case 'singbox':
+			return 'singbox';
+		case 'surge':
+			return 'surge';
+		case 'quanx':
+			return 'Quantumult%20X';
+		case 'loon':
+			return 'Loon';
+		default:
+			return 'v2rayn';
+	}
+}
 
 async function 读取静态地址列表(env, txt = 'LINK.txt') {
 	if (!env.ASSETS) return '';
@@ -116,8 +151,9 @@ export default {
 			urls = await ADD(订阅链接);
 			await sendMessage(`#获取订阅 ${FileName}`, request.headers.get('CF-Connecting-IP'), `UA: ${userAgentHeader}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
 			const isSubConverterRequest = request.headers.get('subconverter-request') || request.headers.get('subconverter-version') || userAgent.includes('subconverter');
-			let 订阅格式 = 'base64';
-			if (!(userAgent.includes('null') || isSubConverterRequest || userAgent.includes('nekobox') || userAgent.includes(('CF-Workers-SUB').toLowerCase()))) {
+			const 显式订阅格式 = 获取显式订阅格式(url);
+			let 订阅格式 = 显式订阅格式 || 'base64';
+			if (!显式订阅格式 && !(userAgent.includes('null') || isSubConverterRequest || userAgent.includes('nekobox') || userAgent.includes(('CF-Workers-SUB').toLowerCase()))) {
 				if (userAgent.includes('sing-box') || userAgent.includes('singbox') || url.searchParams.has('sb') || url.searchParams.has('singbox')) {
 					订阅格式 = 'singbox';
 				} else if (userAgent.includes('surge') || url.searchParams.has('surge')) {
@@ -136,13 +172,7 @@ export default {
 			//console.log(订阅转换URL);
 			let req_data = MainData;
 
-			let 追加UA = 'v2rayn';
-			if (url.searchParams.has('b64') || url.searchParams.has('base64')) 订阅格式 = 'base64';
-			else if (url.searchParams.has('clash')) 追加UA = 'clash';
-			else if (url.searchParams.has('singbox')) 追加UA = 'singbox';
-			else if (url.searchParams.has('surge')) 追加UA = 'surge';
-			else if (url.searchParams.has('quanx')) 追加UA = 'Quantumult%20X';
-			else if (url.searchParams.has('loon')) 追加UA = 'Loon';
+			let 追加UA = 获取订阅请求UA(订阅格式);
 
 			const 订阅链接数组 = [...new Set(urls)].filter(item => item?.trim?.()); // 去重
 			if (订阅链接数组.length > 0) {
@@ -620,7 +650,7 @@ async function KV(request, env, txt = 'ADD.txt', guest) {
 					Subscribe / sub 订阅地址, 点击链接自动 <strong>复制订阅链接</strong> 并 <strong>生成订阅二维码</strong> <br>
 					---------------------------------------------------------------<br>
 					自适应订阅地址:<br>
-					<a href="javascript:void(0)" onclick="copyToClipboard('https://${url.hostname}/${mytoken}?sub','qrcode_0')" style="color:blue;text-decoration:underline;cursor:pointer;">https://${url.hostname}/${mytoken}</a><br>
+					<a href="javascript:void(0)" onclick="copyToClipboard('https://${url.hostname}/${mytoken}','qrcode_0')" style="color:blue;text-decoration:underline;cursor:pointer;">https://${url.hostname}/${mytoken}</a><br>
 					<div id="qrcode_0" style="margin: 10px 10px 10px 10px;"></div>
 					Base64订阅地址:<br>
 					<a href="javascript:void(0)" onclick="copyToClipboard('https://${url.hostname}/${mytoken}?b64','qrcode_1')" style="color:blue;text-decoration:underline;cursor:pointer;">https://${url.hostname}/${mytoken}?b64</a><br>
