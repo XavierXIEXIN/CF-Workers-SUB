@@ -1,0 +1,130 @@
+{
+  "updated_at": "2026-04-17 15:02:15",
+  "scheduled_source_statuses": [
+    "mainland-proven"
+  ],
+  "enabled_sources": [
+    "edge1",
+    "seeda",
+    "seedb",
+    "edge4",
+    "seedd",
+    "seede",
+    "seedf"
+  ],
+  "scheduled_sources": [
+    "edge1",
+    "seeda",
+    "seedb",
+    "edge4",
+    "seedd",
+    "seede",
+    "seedf"
+  ],
+  "sources": [
+    {
+      "name": "edge1",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "Primary self-hosted source with repeated selected-node evidence.",
+      "candidate_count": 32,
+      "selected_count": 9,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "reedge",
+      "status": "disabled-zero-yield",
+      "enabled": false,
+      "scheduled": false,
+      "note": "Keep for notes only until a mainland run shows non-zero selected nodes again.",
+      "candidate_count": 0,
+      "selected_count": 0,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "seeda",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "Seed source with repeated selected-node evidence.",
+      "candidate_count": 32,
+      "selected_count": 8,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "seedb",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "Seed source with repeated selected-node evidence.",
+      "candidate_count": 32,
+      "selected_count": 12,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "edge4",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "Keep enabled because it contributes in dual-mainland selection.",
+      "candidate_count": 32,
+      "selected_count": 10,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "seedd",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "Seed source with repeated selected-node evidence.",
+      "candidate_count": 32,
+      "selected_count": 7,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "seede",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "Seed source with repeated selected-node evidence.",
+      "candidate_count": 32,
+      "selected_count": 7,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "seedf",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "Seed source with repeated selected-node evidence.",
+      "candidate_count": 32,
+      "selected_count": 11,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 32,
+      "cache_bust": true
+    }
+  ]
+}
