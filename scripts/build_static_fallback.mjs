@@ -155,7 +155,7 @@ fs.writeFileSync("be.b64", `${Buffer.from(rawText, "utf8").toString("base64")}\n
 fs.writeFileSync("_routes.json", `${JSON.stringify({
   version: 1,
   include: ["/*"],
-  exclude: ["/be", "/be.yaml", "/be.txt", "/be.b64"],
+  exclude: ["/be", "/be.yaml", "/be.txt", "/be.b64", "/LINK.txt"],
 }, null, 2)}\n`, "utf8");
 fs.writeFileSync("_headers", `/be
   Content-Type: text/yaml; charset=utf-8
@@ -167,6 +167,9 @@ fs.writeFileSync("_headers", `/be
   Content-Type: text/plain; charset=utf-8
   Cache-Control: no-store
 /be.b64
+  Content-Type: text/plain; charset=utf-8
+  Cache-Control: no-store
+/LINK.txt
   Content-Type: text/plain; charset=utf-8
   Cache-Control: no-store
 `, "utf8");
