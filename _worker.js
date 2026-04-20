@@ -68,6 +68,33 @@ async function 读取静态地址列表(env, txt = 'LINK.txt') {
 	}
 }
 
+function 合并地址列表(...blocks) {
+	const seen = new Set();
+	const lines = [];
+	for (const block of blocks) {
+		if (!block) continue;
+		for (const rawLine of String(block).split('\n')) {
+			const line = rawLine.trim();
+			if (!line || seen.has(line)) continue;
+			seen.add(line);
+			lines.push(line);
+		}
+	}
+	return lines.join('\n') + (lines.length ? '\n' : '');
+}
+
+function 读取固定节点(env) {
+	let fixed = env.FIXED_NODES || '';
+	if (env.FIXED_NODES_B64) {
+		try {
+			fixed = 合并地址列表(atob(env.FIXED_NODES_B64), fixed);
+		} catch (error) {
+			console.log('读取FIXED_NODES_B64失败:', error);
+		}
+	}
+	return fixed;
+}
+
 export default {
 	async fetch(request, env) {
 		const userAgentHeader = request.headers.get('User-Agent');
@@ -101,6 +128,7 @@ export default {
 		total = total * 1099511627776;
 		let expire = Math.floor(timestamp / 1000);
 		SUBUpdateTime = env.SUBUPTIME || SUBUpdateTime;
+		const 固定节点列表 = 读取固定节点(env);
 
 		if (!([mytoken, fakeToken, 访客订阅].includes(token) || url.pathname == ("/" + mytoken) || url.pathname.includes("/" + mytoken + "?"))) {
 			if (TG == 1 && url.pathname !== "/" && url.pathname !== "/favicon.ico") await sendMessage(`#异常访问 ${FileName}`, request.headers.get('CF-Connecting-IP'), `UA: ${userAgent}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
@@ -120,14 +148,14 @@ export default {
 					await sendMessage(`#编辑订阅 ${FileName}`, request.headers.get('CF-Connecting-IP'), `UA: ${userAgentHeader}</tg-spoiler>\n域名: ${url.hostname}\n<tg-spoiler>入口: ${url.pathname + url.search}</tg-spoiler>`);
 					return await KV(request, env, 'LINK.txt', 访客订阅);
 				} else {
-					MainData = 静态地址列表 || await env.KV.get('LINK.txt') || MainData;
+					MainData = 合并地址列表(固定节点列表, 静态地址列表 || await env.KV.get('LINK.txt') || MainData);
 				}
 			} else {
-				MainData = 静态地址列表 || env.LINK || MainData;
+				MainData = 合并地址列表(固定节点列表, 静态地址列表 || env.LINK || MainData);
 				if (env.LINKSUB) urls = await ADD(env.LINKSUB);
 			}
 			if (静态地址列表 && userAgent.includes('mozilla') && !url.search) {
-				return new Response(静态地址列表, {
+				return new Response(MainData, {
 					status: 200,
 					headers: {
 						'Content-Type': 'text/plain; charset=UTF-8',
