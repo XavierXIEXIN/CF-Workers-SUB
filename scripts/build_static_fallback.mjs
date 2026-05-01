@@ -32,6 +32,23 @@ function firstValue(params, key, fallback = "") {
   return params.get(key) || fallback;
 }
 
+function decodeBase64Loose(value) {
+  const normalized = decodeURIComponent(value).replaceAll("-", "+").replaceAll("_", "/");
+  const padding = "=".repeat((4 - (normalized.length % 4)) % 4);
+  return Buffer.from(`${normalized}${padding}`, "base64").toString("utf8");
+}
+
+function maybeBase64Decode(value) {
+  const decoded = decodeBase64Loose(value);
+  return decoded.includes(":") ? decoded : decodeURIComponent(value);
+}
+
+function splitServerPort(value) {
+  const index = value.lastIndexOf(":");
+  if (index <= 0) throw new Error("missing server port");
+  return [value.slice(0, index), Number.parseInt(value.slice(index + 1), 10)];
+}
+
 function parseVless(line) {
   const parsed = new URL(line);
   if (parsed.protocol !== "vless:" || !parsed.username || !parsed.hostname) {
@@ -76,6 +93,81 @@ function parseVless(line) {
   }
 
   return proxy;
+}
+
+function parsePluginOptions(params) {
+  const encodedV2rayPlugin = params.get("v2ray-plugin");
+  if (encodedV2rayPlugin) {
+    const options = JSON.parse(decodeBase64Loose(encodedV2rayPlugin));
+    const pluginOptions = {};
+    if (options.mode) pluginOptions.mode = options.mode;
+    if (options.host) pluginOptions.host = options.host;
+    if (options.path) pluginOptions.path = options.path;
+    if (options.tls !== undefined) pluginOptions.tls = Boolean(options.tls);
+    if (options.mux !== undefined) pluginOptions.mux = Boolean(options.mux);
+    if (options.allowInsecure !== undefined) pluginOptions["skip-cert-verify"] = Boolean(options.allowInsecure);
+    return { plugin: "v2ray-plugin", pluginOptions };
+  }
+
+  const plugin = params.get("plugin");
+  if (!plugin) return {};
+
+  const [pluginName, ...rawOptions] = decodeURIComponent(plugin).split(";");
+  const pluginOptions = {};
+  for (const item of rawOptions) {
+    if (!item) continue;
+    if (item === "tls") {
+      pluginOptions.tls = true;
+      continue;
+    }
+    const [key, ...valueParts] = item.split("=");
+    pluginOptions[key] = valueParts.length ? valueParts.join("=") : true;
+  }
+  return { plugin: pluginName, pluginOptions };
+}
+
+function parseShadowsocks(line) {
+  const parsed = new URL(line);
+  if (parsed.protocol !== "ss:") throw new Error("unsupported node URI");
+
+  let userInfo = "";
+  let server = "";
+  let port = 0;
+  if (parsed.username && parsed.hostname) {
+    userInfo = maybeBase64Decode(parsed.username);
+    server = parsed.hostname;
+    port = Number.parseInt(parsed.port, 10);
+  } else {
+    const decoded = decodeBase64Loose(parsed.hostname || parsed.pathname.replace(/^\//, ""));
+    const atIndex = decoded.lastIndexOf("@");
+    if (atIndex <= 0) throw new Error("invalid shadowsocks payload");
+    userInfo = decoded.slice(0, atIndex);
+    [server, port] = splitServerPort(decoded.slice(atIndex + 1));
+  }
+
+  const separator = userInfo.indexOf(":");
+  if (separator <= 0) throw new Error("invalid shadowsocks user info");
+  const plugin = parsePluginOptions(parsed.searchParams);
+  const proxy = {
+    name: decodeURIComponent(parsed.hash ? parsed.hash.slice(1) : `${server}:${port}`),
+    type: "ss",
+    server,
+    port,
+    cipher: userInfo.slice(0, separator),
+    password: userInfo.slice(separator + 1),
+    udp: true,
+  };
+  if (plugin.plugin) {
+    proxy.plugin = plugin.plugin;
+    proxy["plugin-opts"] = plugin.pluginOptions;
+  }
+  return proxy;
+}
+
+function parseProxy(line) {
+  if (line.startsWith("vless://")) return parseVless(line);
+  if (line.startsWith("ss://")) return parseShadowsocks(line);
+  return null;
 }
 
 function scalar(value) {
@@ -144,7 +236,7 @@ function buildClash(proxies) {
 
 const fixedLines = uniqueLines(decodeFixedNodes());
 const allLines = uniqueLines(fixedLines.join("\n"), linkText);
-const proxies = allLines.filter((line) => line.startsWith("vless://")).map(parseVless);
+const proxies = allLines.map(parseProxy).filter(Boolean);
 const rawText = `${allLines.join("\n")}\n`;
 const clashText = buildClash(proxies);
 
