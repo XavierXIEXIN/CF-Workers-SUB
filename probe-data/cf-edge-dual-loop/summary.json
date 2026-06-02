@@ -2,29 +2,28 @@
   "probe_count": 3,
   "configured_priority_probe": "winbox",
   "alive_fast_by_probe": {
-    "winbox": 0,
-    "zhongb-tail": 25,
+    "winbox": 31,
+    "zhongb-tail": 31,
     "local": 31
   },
   "mainland_probes": [
     "winbox",
     "zhongb-tail"
   ],
-  "excluded_zero_yield_probes": [
-    "winbox"
-  ],
-  "effective_probe_count": 2,
-  "priority_probe": "zhongb-tail",
+  "excluded_zero_yield_probes": [],
+  "effective_probe_count": 3,
+  "priority_probe": "winbox",
   "mainland_confirmed": true,
   "mainland_confirming_probes": [
+    "winbox",
     "zhongb-tail"
   ],
   "gate": "ok",
-  "shared_candidates": 25,
-  "selected": 25,
-  "priority_top_speed_bps": 360586.0,
-  "top_min_speed_bps": 360586.0,
-  "top_avg_speed_bps": 504195.5,
-  "median_min_speed_bps": 87182.0,
-  "min_of_selected_bps": 19064.0
+  "shared_candidates": 31,
+  "selected": 31,
+  "priority_top_speed_bps": 508789.0,
+  "top_min_speed_bps": 297519.0,
+  "top_avg_speed_bps": 415279.6666666667,
+  "median_min_speed_bps": 341440.0,
+  "min_of_selected_bps": 335095.0
 }
