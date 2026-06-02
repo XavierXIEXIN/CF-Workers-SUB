@@ -1,23 +1,21 @@
 {
-  "updated_at": "2026-06-02 23:14:42",
+  "updated_at": "2026-06-03 00:40:15",
   "scheduled_source_statuses": [
     "mainland-proven"
   ],
   "enabled_sources": [
-    "edge1",
-    "edge4"
+    "reedge"
   ],
   "scheduled_sources": [
-    "edge1",
-    "edge4"
+    "reedge"
   ],
   "sources": [
     {
       "name": "edge1",
-      "status": "mainland-proven",
-      "enabled": true,
-      "scheduled": true,
-      "note": "Primary self-hosted source with repeated selected-node evidence.",
+      "status": "disabled-workersdev-sni-blocked",
+      "enabled": false,
+      "scheduled": false,
+      "note": "Disabled 2026-06-03: edgeseed worker emits host/sni=edgeseed.xiexingk.workers.dev. GFW resets *.workers.dev TLS SNI (verified from zhongb China Mobile: workers.dev http=000, custom domain http=200). Re-enable only if the worker is redeployed with HOST set to the custom domain.",
       "candidate_count": 32,
       "selected_count": 31,
       "fetch_error_count": 1,
@@ -27,12 +25,12 @@
     },
     {
       "name": "reedge",
-      "status": "disabled-zero-yield",
-      "enabled": false,
-      "scheduled": false,
-      "note": "Keep for notes only until a mainland run shows non-zero selected nodes again.",
-      "candidate_count": 0,
-      "selected_count": 0,
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "Primary custom-domain source (re-edgetunnel worker, host/sni=reedge.akkk.qzz.io). Custom-domain SNI passes the GFW where workers.dev does not (verified from zhongb 2026-06-03). Re-enabled as the working scheduled source.",
+      "candidate_count": 32,
+      "selected_count": 31,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 32,
@@ -66,10 +64,10 @@
     },
     {
       "name": "edge4",
-      "status": "mainland-proven",
-      "enabled": true,
-      "scheduled": true,
-      "note": "Keep enabled because it contributes in dual-mainland selection.",
+      "status": "disabled-workersdev-sni-blocked",
+      "enabled": false,
+      "scheduled": false,
+      "note": "Disabled 2026-06-03: same edgeseed worker as edge1, emits workers.dev SNI which the GFW blocks. Re-enable only after the worker is redeployed with HOST set to the custom domain.",
       "candidate_count": 32,
       "selected_count": 30,
       "fetch_error_count": 1,
