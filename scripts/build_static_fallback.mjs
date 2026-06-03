@@ -211,6 +211,7 @@ const countryGroups = [
   { name: "🇬🇧 英国", pattern: /(英国|英國|伦敦|🇬🇧|\bGB\b|\bUK\b|United Kingdom)/i },
   { name: "🇩🇪 德国", pattern: /(德国|德國|法兰克福|🇩🇪|\bDE\b|Germany)/i },
   { name: "🇳🇱 荷兰", pattern: /(荷兰|荷蘭|🇳🇱|\bNL\b|Netherlands)/i },
+  { name: "🇸🇨 塞舌尔", pattern: /(塞舌尔|塞舌爾|🇸🇨|\bSC\b|Seychelles)/i },
   { name: "🇨🇦 加拿大", pattern: /(加拿大|🇨🇦|\bCA\b|Canada)/i },
   { name: "🇦🇺 澳大利亚", pattern: /(澳大利亚|澳洲|悉尼|墨尔本|🇦🇺|\bAU\b|Australia)/i },
   { name: "🇫🇷 法国", pattern: /(法国|法國|巴黎|🇫🇷|\bFR\b|France)/i },
