@@ -1,15 +1,23 @@
 {
-  "updated_at": "2026-06-03 09:00:13",
+  "updated_at": "2026-06-03 15:14:24",
   "scheduled_source_statuses": [
     "mainland-proven"
   ],
   "enabled_sources": [
     "reedge",
-    "edt2"
+    "edt2",
+    "oci2-reality",
+    "edt2-us",
+    "edt2-jp",
+    "edt2-hk"
   ],
   "scheduled_sources": [
     "reedge",
-    "edt2"
+    "edt2",
+    "oci2-reality",
+    "edt2-us",
+    "edt2-jp",
+    "edt2-hk"
   ],
   "sources": [
     {
@@ -38,7 +46,7 @@
       "tags": [],
       "note": "Primary custom-domain source (re-edgetunnel worker, host/sni=reedge.akkk.qzz.io). Custom-domain SNI passes the GFW where workers.dev does not (verified from zhongb 2026-06-03). Re-enabled as the working scheduled source.",
       "candidate_count": 32,
-      "selected_count": 32,
+      "selected_count": 13,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 32,
@@ -58,10 +66,93 @@
       ],
       "note": "cmliu edgetunnel 2.x deployed 2026-06-03 (worker edt2, custom domain edt.akkk.qzz.io, PROXYIP=proxyip.cmliussss.net for exit). Custom-domain SNI. Panel at /<UUID>. Mainland survivors are gated by the merge as usual; widens the candidate pool beyond reedge. Exit verified as SG via Check ProxyIP 2026-06-03; keep country metadata only while PROXYIP remains unchanged.",
       "candidate_count": 16,
-      "selected_count": 16,
+      "selected_count": 14,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 48,
+      "cache_bust": true
+    },
+    {
+      "name": "oci2-reality",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "country": "SG",
+      "region_label": "新加坡",
+      "tags": [
+        "SG",
+        "新加坡",
+        "Singapore",
+        "REALITY",
+        "VPS"
+      ],
+      "note": "OCI2 direct VLESS Vision REALITY node. Exit verified with api.ip.sb on 2026-06-03 as SG/Oracle Cloud. Private URI lives only in live workspace and must not be committed.",
+      "candidate_count": 1,
+      "selected_count": 0,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 1,
+      "cache_bust": false
+    },
+    {
+      "name": "edt2-us",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "country": "US",
+      "region_label": "美国",
+      "tags": [
+        "US",
+        "美国",
+        "United States",
+        "USA"
+      ],
+      "note": "Derived from edt2 with US ProxyIP; keep only nodes proven by mainland probes.",
+      "candidate_count": 16,
+      "selected_count": 10,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 16,
+      "cache_bust": true
+    },
+    {
+      "name": "edt2-jp",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "country": "JP",
+      "region_label": "日本",
+      "tags": [
+        "JP",
+        "日本",
+        "Japan"
+      ],
+      "note": "Derived from edt2 with JP ProxyIP; keep only nodes proven by mainland probes.",
+      "candidate_count": 16,
+      "selected_count": 12,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 16,
+      "cache_bust": true
+    },
+    {
+      "name": "edt2-hk",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "country": "HK",
+      "region_label": "香港",
+      "tags": [
+        "HK",
+        "香港",
+        "Hong Kong"
+      ],
+      "note": "Derived from edt2 with HK ProxyIP; keep only nodes proven by mainland probes.",
+      "candidate_count": 16,
+      "selected_count": 15,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 16,
       "cache_bust": true
     },
     {
