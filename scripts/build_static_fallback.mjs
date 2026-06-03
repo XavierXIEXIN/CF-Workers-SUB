@@ -201,8 +201,40 @@ function emitMapping(lines, object, indent = 0) {
   }
 }
 
+const countryGroups = [
+  { name: "🇭🇰 香港", pattern: /(香港|HongKong|Hong Kong|🇭🇰|\bHK\b)/i },
+  { name: "🇹🇼 台湾", pattern: /(台湾|台灣|臺|🇹🇼|\bTW\b)/i },
+  { name: "🇯🇵 日本", pattern: /(日本|东京|大阪|🇯🇵|\bJP\b|Japan)/i },
+  { name: "🇸🇬 新加坡", pattern: /(新加坡|狮城|獅城|🇸🇬|\bSG\b|Singapore)/i },
+  { name: "🇺🇸 美国", pattern: /(美国|美國|🇺🇸|\bUS\b|United States|USA|硅谷|洛杉矶|圣何塞)/i },
+  { name: "🇰🇷 韩国", pattern: /(韩国|韓國|首尔|🇰🇷|\bKR\b|Korea)/i },
+  { name: "🇬🇧 英国", pattern: /(英国|英國|伦敦|🇬🇧|\bGB\b|\bUK\b|United Kingdom)/i },
+  { name: "🇩🇪 德国", pattern: /(德国|德國|法兰克福|🇩🇪|\bDE\b|Germany)/i },
+  { name: "🇳🇱 荷兰", pattern: /(荷兰|荷蘭|🇳🇱|\bNL\b|Netherlands)/i },
+  { name: "🇨🇦 加拿大", pattern: /(加拿大|🇨🇦|\bCA\b|Canada)/i },
+  { name: "🇦🇺 澳大利亚", pattern: /(澳大利亚|澳洲|悉尼|墨尔本|🇦🇺|\bAU\b|Australia)/i },
+  { name: "🇫🇷 法国", pattern: /(法国|法國|巴黎|🇫🇷|\bFR\b|France)/i },
+  { name: "🇮🇳 印度", pattern: /(印度|孟买|孟買|🇮🇳|\bIN\b|India)/i },
+  { name: "🇧🇷 巴西", pattern: /(巴西|圣保罗|聖保羅|🇧🇷|\bBR\b|Brazil)/i },
+];
+
+function buildCountryGroups(names) {
+  return countryGroups
+    .map((group) => ({
+      name: group.name,
+      type: "select",
+      proxies: names.filter((name) => group.pattern.test(name)),
+    }))
+    .filter((group) => group.proxies.length > 0);
+}
+
 function buildClash(proxies) {
   const names = proxies.map((proxy) => proxy.name);
+  const matchedCountryGroups = buildCountryGroups(names);
+  const countryGroupNames = matchedCountryGroups.map((group) => group.name);
+  const countrySelector = countryGroupNames.length
+    ? [...countryGroupNames, "♻️ 自动选择"]
+    : ["♻️ 自动选择", "☑️ 手动切换"];
   const lines = [
     "mixed-port: 7890",
     "allow-lan: false",
@@ -219,7 +251,9 @@ function buildClash(proxies) {
   }
 
   const groups = [
-    { name: "🚀 节点选择", type: "select", proxies: ["🏠 自建优先", "☑️ 手动切换", "♻️ 自动选择", "DIRECT"] },
+    { name: "🚀 节点选择", type: "select", proxies: ["🏠 自建优先", "🌍 国家地区", "☑️ 手动切换", "♻️ 自动选择", "DIRECT"] },
+    { name: "🌍 国家地区", type: "select", proxies: countrySelector },
+    ...matchedCountryGroups,
     { name: "🏠 自建优先", type: "fallback", url: "http://www.gstatic.com/generate_204", interval: 600, proxies: names },
     { name: "☑️ 手动切换", type: "select", proxies: names },
     { name: "♻️ 自动选择", type: "url-test", url: "http://www.gstatic.com/generate_204", interval: 600, tolerance: 50, proxies: names },
