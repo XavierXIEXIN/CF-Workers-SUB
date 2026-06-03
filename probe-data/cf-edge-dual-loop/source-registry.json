@@ -1,13 +1,15 @@
 {
-  "updated_at": "2026-06-03 07:23:01",
+  "updated_at": "2026-06-03 08:02:21",
   "scheduled_source_statuses": [
     "mainland-proven"
   ],
   "enabled_sources": [
-    "reedge"
+    "reedge",
+    "edt2"
   ],
   "scheduled_sources": [
-    "reedge"
+    "reedge",
+    "edt2"
   ],
   "sources": [
     {
@@ -30,10 +32,23 @@
       "scheduled": true,
       "note": "Primary custom-domain source (re-edgetunnel worker, host/sni=reedge.akkk.qzz.io). Custom-domain SNI passes the GFW where workers.dev does not (verified from zhongb 2026-06-03). Re-enabled as the working scheduled source.",
       "candidate_count": 32,
-      "selected_count": 31,
+      "selected_count": 32,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "edt2",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "note": "cmliu edgetunnel 2.x deployed 2026-06-03 (worker edt2, custom domain edt.akkk.qzz.io, PROXYIP=proxyip.cmliussss.net for exit). Custom-domain SNI. Panel at /<UUID>. Mainland survivors are gated by the merge as usual; widens the candidate pool beyond reedge.",
+      "candidate_count": 16,
+      "selected_count": 16,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 48,
       "cache_bust": true
     },
     {
