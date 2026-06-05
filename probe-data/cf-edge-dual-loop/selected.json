@@ -1,6 +1,53 @@
 [
   {
-    "name": "edt2-us-003|US|美国|United States|USA|CF官方优选3",
+    "name": "edt2-001|SG|新加坡|Singapore|CF官方优选1",
+    "source": "edt2",
+    "country": "US",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "winbox": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "139.162.23.48",
+      "winbox": "96.8.121.29"
+    },
+    "observed_org_by_probe": {
+      "local": "Akamai Connected Cloud",
+      "winbox": "HostPapa"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "winbox": false
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@198.41.223.34:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-001%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 663019.0,
+      "winbox": 505071.0
+    },
+    "probe_check_s": {
+      "local": 0.056289,
+      "winbox": 0.537007
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 505071.0,
+    "mainland_best_speed_bps": 505071.0,
+    "mainland_min_speed_bps": 505071.0,
+    "min_speed_bps": 505071.0,
+    "avg_speed_bps": 584045.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "edt2-us-014|US|美国|United States|USA|CF官方优选14",
     "source": "edt2-us",
     "country": "US",
     "expected_country": "US",
@@ -9,12 +56,12 @@
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "172.245.53.232",
-      "winbox": "107.174.242.250"
+      "local": "38.60.91.95",
+      "winbox": "174.136.205.75"
     },
     "observed_org_by_probe": {
-      "local": "HostPapa",
-      "winbox": "HostPapa"
+      "local": "Fastnet Data",
+      "winbox": "DMIT"
     },
     "observed_country_match_by_probe": {
       "local": true,
@@ -27,165 +74,27 @@
       "USA",
       "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.39.125.130:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-003%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@173.245.58.30:2087?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-014%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 654178.0,
-      "winbox": 513036.0
+      "local": 572384.0,
+      "winbox": 498019.0
     },
     "probe_check_s": {
-      "local": 0.072345,
-      "winbox": 0.660522
+      "local": 0.238335,
+      "winbox": 0.510017
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 513036.0,
-    "mainland_best_speed_bps": 513036.0,
-    "mainland_min_speed_bps": 513036.0,
-    "min_speed_bps": 513036.0,
-    "avg_speed_bps": 583607.0,
+    "priority_speed_bps": 498019.0,
+    "mainland_best_speed_bps": 498019.0,
+    "mainland_min_speed_bps": 498019.0,
+    "min_speed_bps": 498019.0,
+    "avg_speed_bps": 535201.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-007|SG|新加坡|Singapore|CF官方优选7",
-    "source": "edt2",
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "128.199.255.242",
-      "winbox": "143.198.211.180"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "winbox": "Digital Ocean"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.35.211.46:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-007%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 599239.0,
-      "winbox": 510868.0
-    },
-    "probe_check_s": {
-      "local": 0.069963,
-      "winbox": 0.507449
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 510868.0,
-    "mainland_best_speed_bps": 510868.0,
-    "mainland_min_speed_bps": 510868.0,
-    "min_speed_bps": 510868.0,
-    "avg_speed_bps": 555053.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-012|SG|新加坡|Singapore|CF官方优选12",
-    "source": "edt2",
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "108.171.108.19",
-      "winbox": "202.55.67.194"
-    },
-    "observed_org_by_probe": {
-      "local": "Strong Technology",
-      "winbox": "Viewqwest"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.18.39.189:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-012%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 619958.0,
-      "winbox": 499937.0
-    },
-    "probe_check_s": {
-      "local": 0.056719,
-      "winbox": 0.549531
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 499937.0,
-    "mainland_best_speed_bps": 499937.0,
-    "mainland_min_speed_bps": 499937.0,
-    "min_speed_bps": 499937.0,
-    "avg_speed_bps": 559947.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-hk-012|HK|香港|Hong Kong|CF官方优选12",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "winbox": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "159.138.138.87",
-      "winbox": "123.254.106.203"
-    },
-    "observed_org_by_probe": {
-      "local": "Huawei Cloud",
-      "winbox": "Cloudie"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.35.211.133:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-012%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 638476.0,
-      "winbox": 495155.0
-    },
-    "probe_check_s": {
-      "local": 0.069834,
-      "winbox": 0.70126
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 495155.0,
-    "mainland_best_speed_bps": 495155.0,
-    "mainland_min_speed_bps": 495155.0,
-    "min_speed_bps": 495155.0,
-    "avg_speed_bps": 566815.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "reedge-031|CF官方优选",
+    "name": "reedge-004|CF官方优选",
     "source": "reedge",
     "country": "US",
     "expected_country": "",
@@ -212,73 +121,74 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@8.39.125.54:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-031%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@162.159.36.60:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-004%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 605395.0,
-      "winbox": 493747.0
+      "local": 379590.0,
+      "winbox": 497028.0
     },
     "probe_check_s": {
-      "local": 0.233011,
-      "winbox": 0.707774
+      "local": 0.229032,
+      "winbox": 0.654046
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 493747.0,
-    "mainland_best_speed_bps": 493747.0,
-    "mainland_min_speed_bps": 493747.0,
-    "min_speed_bps": 493747.0,
-    "avg_speed_bps": 549571.0,
+    "priority_speed_bps": 497028.0,
+    "mainland_best_speed_bps": 497028.0,
+    "mainland_min_speed_bps": 497028.0,
+    "min_speed_bps": 379590.0,
+    "avg_speed_bps": 438309.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-hk-005|HK|香港|Hong Kong|CF官方优选5",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
+    "name": "reedge-006|CF官方优选",
+    "source": "reedge",
+    "country": "US",
+    "expected_country": "",
     "observed_country_by_probe": {
-      "local": "SC",
-      "winbox": "HK"
+      "local": "US",
+      "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "156.239.245.130",
-      "winbox": "123.254.106.203"
+      "local": "104.168.76.144",
+      "winbox": "107.174.131.32"
     },
     "observed_org_by_probe": {
-      "local": "Zenlayer",
-      "winbox": "Cloudie"
+      "local": "HostPapa",
+      "winbox": "HostPapa"
     },
     "observed_country_match_by_probe": {
       "local": false,
-      "winbox": true
+      "winbox": false
     },
-    "region_label": "香港",
+    "region_label": "",
     "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
+      "US",
+      "United States",
+      "USA",
+      "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@188.164.248.140:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-005%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.18.37.191:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-006%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 636475.0,
-      "winbox": 493498.0
+      "local": 412117.0,
+      "winbox": 495858.0
     },
     "probe_check_s": {
-      "local": 0.066109,
-      "winbox": 0.535264
+      "local": 0.070504,
+      "winbox": 0.502982
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 493498.0,
-    "mainland_best_speed_bps": 493498.0,
-    "mainland_min_speed_bps": 493498.0,
-    "min_speed_bps": 493498.0,
-    "avg_speed_bps": 564986.5,
+    "priority_speed_bps": 495858.0,
+    "mainland_best_speed_bps": 495858.0,
+    "mainland_min_speed_bps": 495858.0,
+    "min_speed_bps": 412117.0,
+    "avg_speed_bps": 453987.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-jp-008|JP|日本|Japan|CF官方优选8",
+    "name": "edt2-jp-015|JP|日本|Japan|CF官方优选15",
     "source": "edt2-jp",
     "country": "JP",
     "expected_country": "JP",
@@ -287,57 +197,11 @@
       "winbox": "JP"
     },
     "observed_ip_by_probe": {
-      "local": "149.28.21.106",
-      "winbox": "149.28.21.106"
+      "local": "141.147.185.63",
+      "winbox": "150.230.5.126"
     },
     "observed_org_by_probe": {
-      "local": "Vultr",
-      "winbox": "Vultr"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@198.41.223.27:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-008%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 666352.0,
-      "winbox": 493271.0
-    },
-    "probe_check_s": {
-      "local": 0.219536,
-      "winbox": 0.49971
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 493271.0,
-    "mainland_best_speed_bps": 493271.0,
-    "mainland_min_speed_bps": 493271.0,
-    "min_speed_bps": 493271.0,
-    "avg_speed_bps": 579811.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-jp-003|JP|日本|Japan|CF官方优选3",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "172.104.97.39",
-      "winbox": "141.147.185.63"
-    },
-    "observed_org_by_probe": {
-      "local": "Akamai Connected Cloud",
+      "local": "Oracle Cloud",
       "winbox": "Oracle Cloud"
     },
     "observed_country_match_by_probe": {
@@ -350,87 +214,44 @@
       "Japan",
       "日本"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.39.125.206:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-003%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@173.245.58.3:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-015%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
     "probe_speeds_bps": {
-      "local": 609753.0,
-      "winbox": 490652.0
+      "local": 641011.0,
+      "winbox": 492243.0
     },
     "probe_check_s": {
-      "local": 0.21594,
-      "winbox": 0.675418
+      "local": 0.084574,
+      "winbox": 0.670353
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 490652.0,
-    "mainland_best_speed_bps": 490652.0,
-    "mainland_min_speed_bps": 490652.0,
-    "min_speed_bps": 490652.0,
-    "avg_speed_bps": 550202.5,
+    "priority_speed_bps": 492243.0,
+    "mainland_best_speed_bps": 492243.0,
+    "mainland_min_speed_bps": 492243.0,
+    "min_speed_bps": 492243.0,
+    "avg_speed_bps": 566627.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-003|SG|新加坡|Singapore|CF官方优选3",
-    "source": "edt2",
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "108.171.108.19"
-    },
-    "observed_org_by_probe": {
-      "local": "Strong Technology"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": false
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.39.125.197:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-003%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 583658.0,
-      "winbox": 490279.0
-    },
-    "probe_check_s": {
-      "local": 0.056357,
-      "winbox": 0.51259
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 490279.0,
-    "mainland_best_speed_bps": 490279.0,
-    "mainland_min_speed_bps": 490279.0,
-    "min_speed_bps": 490279.0,
-    "avg_speed_bps": 536968.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-hk-001|HK|香港|Hong Kong|CF官方优选1",
+    "name": "edt2-hk-013|HK|香港|Hong Kong|CF官方优选13",
     "source": "edt2-hk",
     "country": "HK",
     "expected_country": "HK",
     "observed_country_by_probe": {
-      "local": "SC",
+      "local": "HK",
       "winbox": "HK"
     },
     "observed_ip_by_probe": {
-      "local": "156.239.245.130",
-      "winbox": "123.254.106.203"
+      "local": "123.254.106.203",
+      "winbox": "2001:df1:7880:100:ae90:fcff:fe00:126f"
     },
     "observed_org_by_probe": {
-      "local": "Zenlayer",
-      "winbox": "Cloudie"
+      "local": "Cloudie",
+      "winbox": "Lucidacloud"
     },
     "observed_country_match_by_probe": {
-      "local": false,
+      "local": true,
       "winbox": true
     },
     "region_label": "香港",
@@ -439,27 +260,74 @@
       "Hong Kong",
       "香港"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@162.159.40.102:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-001%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@173.245.58.170:2087?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-013%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
     "probe_speeds_bps": {
-      "local": 628911.0,
-      "winbox": 489373.0
+      "local": 631918.0,
+      "winbox": 492081.0
     },
     "probe_check_s": {
-      "local": 0.069123,
-      "winbox": 0.556321
+      "local": 0.062666,
+      "winbox": 0.66007
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 489373.0,
-    "mainland_best_speed_bps": 489373.0,
-    "mainland_min_speed_bps": 489373.0,
-    "min_speed_bps": 489373.0,
-    "avg_speed_bps": 559142.0,
+    "priority_speed_bps": 492081.0,
+    "mainland_best_speed_bps": 492081.0,
+    "mainland_min_speed_bps": 492081.0,
+    "min_speed_bps": 492081.0,
+    "avg_speed_bps": 561999.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "reedge-005|CF官方优选",
+    "name": "edt2-us-001|US|美国|United States|USA|CF官方优选1",
+    "source": "edt2-us",
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "winbox": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "167.99.96.149",
+      "winbox": "129.146.46.164"
+    },
+    "observed_org_by_probe": {
+      "local": "Digital Ocean",
+      "winbox": "Oracle Cloud"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "winbox": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.39.125.233:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-001%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 657378.0,
+      "winbox": 484533.0
+    },
+    "probe_check_s": {
+      "local": 0.073431,
+      "winbox": 0.706503
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 484533.0,
+    "mainland_best_speed_bps": 484533.0,
+    "mainland_min_speed_bps": 484533.0,
+    "min_speed_bps": 484533.0,
+    "avg_speed_bps": 570955.5,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "reedge-010|CF官方优选",
     "source": "reedge",
     "country": "US",
     "expected_country": "",
@@ -468,7 +336,7 @@
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "104.168.76.144",
+      "local": "107.174.131.32",
       "winbox": "104.168.76.144"
     },
     "observed_org_by_probe": {
@@ -486,166 +354,27 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@8.35.211.199:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-005%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@173.245.59.210:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-010%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 572330.0,
-      "winbox": 489111.0
+      "local": 433219.0,
+      "winbox": 474353.0
     },
     "probe_check_s": {
-      "local": 0.056696,
-      "winbox": 0.680783
+      "local": 0.221575,
+      "winbox": 0.558955
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 489111.0,
-    "mainland_best_speed_bps": 489111.0,
-    "mainland_min_speed_bps": 489111.0,
-    "min_speed_bps": 489111.0,
-    "avg_speed_bps": 530720.5,
+    "priority_speed_bps": 474353.0,
+    "mainland_best_speed_bps": 474353.0,
+    "mainland_min_speed_bps": 474353.0,
+    "min_speed_bps": 433219.0,
+    "avg_speed_bps": 453786.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-jp-002|JP|日本|Japan|CF官方优选2",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "153.121.45.101",
-      "winbox": "149.28.21.106"
-    },
-    "observed_org_by_probe": {
-      "local": "SAKURA Internet",
-      "winbox": "Vultr"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.18.36.36:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-002%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 569633.0,
-      "winbox": 486884.0
-    },
-    "probe_check_s": {
-      "local": 0.243951,
-      "winbox": 0.758407
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 486884.0,
-    "mainland_best_speed_bps": 486884.0,
-    "mainland_min_speed_bps": 486884.0,
-    "min_speed_bps": 486884.0,
-    "avg_speed_bps": 528258.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-011|US|美国|United States|USA|CF官方优选11",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "38.180.204.104",
-      "winbox": "35.212.224.56"
-    },
-    "observed_org_by_probe": {
-      "local": "Hivelocity",
-      "winbox": "Google Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.35.211.196:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-011%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 664661.0,
-      "winbox": 477769.0
-    },
-    "probe_check_s": {
-      "local": 0.058407,
-      "winbox": 0.711819
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 477769.0,
-    "mainland_best_speed_bps": 477769.0,
-    "mainland_min_speed_bps": 477769.0,
-    "min_speed_bps": 477769.0,
-    "avg_speed_bps": 571215.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-009|SG|新加坡|Singapore|CF官方优选9",
-    "source": "edt2",
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "104.248.145.216",
-      "winbox": "143.198.211.180"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "winbox": "Digital Ocean"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@188.164.248.136:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-009%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 631366.0,
-      "winbox": 477714.0
-    },
-    "probe_check_s": {
-      "local": 0.081398,
-      "winbox": 0.549245
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 477714.0,
-    "mainland_best_speed_bps": 477714.0,
-    "mainland_min_speed_bps": 477714.0,
-    "min_speed_bps": 477714.0,
-    "avg_speed_bps": 554540.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "reedge-028|CF官方优选",
+    "name": "reedge-002|CF官方优选",
     "source": "reedge",
     "country": "US",
     "expected_country": "",
@@ -672,348 +401,68 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@188.164.248.185:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-028%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@198.41.223.33:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-002%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 622386.0,
-      "winbox": 474981.0
+      "local": 437369.0,
+      "winbox": 473442.0
     },
     "probe_check_s": {
-      "local": 0.206527,
-      "winbox": 0.683054
+      "local": 0.203141,
+      "winbox": 0.687562
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 474981.0,
-    "mainland_best_speed_bps": 474981.0,
-    "mainland_min_speed_bps": 474981.0,
-    "min_speed_bps": 474981.0,
-    "avg_speed_bps": 548683.5,
+    "priority_speed_bps": 473442.0,
+    "mainland_best_speed_bps": 473442.0,
+    "mainland_min_speed_bps": 473442.0,
+    "min_speed_bps": 437369.0,
+    "avg_speed_bps": 455405.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-hk-008|HK|香港|Hong Kong|CF官方优选8",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
+    "name": "reedge-022|CF官方优选",
+    "source": "reedge",
+    "country": "US",
+    "expected_country": "",
     "observed_country_by_probe": {
-      "local": "SC",
-      "winbox": "HK"
+      "local": "US",
+      "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "156.239.245.130",
-      "winbox": "123.254.106.203"
+      "local": "107.174.131.32",
+      "winbox": "104.168.76.144"
     },
     "observed_org_by_probe": {
-      "local": "Zenlayer",
-      "winbox": "Cloudie"
+      "local": "HostPapa",
+      "winbox": "HostPapa"
     },
     "observed_country_match_by_probe": {
       "local": false,
-      "winbox": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@162.159.40.237:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-008%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 624875.0,
-      "winbox": 471032.0
-    },
-    "probe_check_s": {
-      "local": 0.213239,
-      "winbox": 0.688964
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 471032.0,
-    "mainland_best_speed_bps": 471032.0,
-    "mainland_min_speed_bps": 471032.0,
-    "min_speed_bps": 471032.0,
-    "avg_speed_bps": 547953.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-002|SG|新加坡|Singapore|CF官方优选2",
-    "source": "edt2",
-    "country": "US",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "104.248.145.216",
-      "winbox": "35.212.224.56"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "winbox": "Google Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
       "winbox": false
     },
-    "region_label": "新加坡",
+    "region_label": "",
     "tags": [
       "US",
       "United States",
       "USA",
       "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.39.125.221:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-002%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@8.39.125.90:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-022%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 637138.0,
-      "winbox": 467507.0
+      "local": 661255.0,
+      "winbox": 471529.0
     },
     "probe_check_s": {
-      "local": 0.066933,
-      "winbox": 0.538389
+      "local": 0.210504,
+      "winbox": 0.491256
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 467507.0,
-    "mainland_best_speed_bps": 467507.0,
-    "mainland_min_speed_bps": 467507.0,
-    "min_speed_bps": 467507.0,
-    "avg_speed_bps": 552322.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-jp-014|JP|日本|Japan|CF官方优选14",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "172.104.97.39",
-      "winbox": "149.28.21.106"
-    },
-    "observed_org_by_probe": {
-      "local": "Akamai Connected Cloud",
-      "winbox": "Vultr"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.18.45.98:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-014%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 651961.0,
-      "winbox": 459964.0
-    },
-    "probe_check_s": {
-      "local": 0.213016,
-      "winbox": 0.678237
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 459964.0,
-    "mainland_best_speed_bps": 459964.0,
-    "mainland_min_speed_bps": 459964.0,
-    "min_speed_bps": 459964.0,
-    "avg_speed_bps": 555962.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-005|US|美国|United States|USA|CF官方优选5",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "104.28.195.185",
-      "winbox": "104.234.50.53"
-    },
-    "observed_org_by_probe": {
-      "local": "Cloudflare Warp",
-      "winbox": "OVHcloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@172.67.79.32:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-005%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 628707.0,
-      "winbox": 436189.0
-    },
-    "probe_check_s": {
-      "local": 0.207986,
-      "winbox": 1.403601
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 436189.0,
-    "mainland_best_speed_bps": 436189.0,
-    "mainland_min_speed_bps": 436189.0,
-    "min_speed_bps": 436189.0,
-    "avg_speed_bps": 532448.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-009|US|美国|United States|USA|CF官方优选9",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "35.212.224.56",
-      "winbox": "104.234.50.53"
-    },
-    "observed_org_by_probe": {
-      "local": "Google Cloud",
-      "winbox": "OVHcloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.26.2.110:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-009%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 570853.0,
-      "winbox": 423696.0
-    },
-    "probe_check_s": {
-      "local": 0.231725,
-      "winbox": 1.404808
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 423696.0,
-    "mainland_best_speed_bps": 423696.0,
-    "mainland_min_speed_bps": 423696.0,
-    "min_speed_bps": 423696.0,
-    "avg_speed_bps": 497274.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-007|US|美国|United States|USA|CF官方优选7",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "172.245.53.232",
-      "winbox": "104.28.195.185"
-    },
-    "observed_org_by_probe": {
-      "local": "HostPapa",
-      "winbox": "Cloudflare Warp"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.217.164:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-007%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 611098.0,
-      "winbox": 369096.0
-    },
-    "probe_check_s": {
-      "local": 0.221012,
-      "winbox": 1.147793
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 369096.0,
-    "mainland_best_speed_bps": 369096.0,
-    "mainland_min_speed_bps": 369096.0,
-    "min_speed_bps": 369096.0,
-    "avg_speed_bps": 490097.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-013|US|美国|United States|USA|CF官方优选13",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "172.245.53.232",
-      "winbox": "104.28.195.185"
-    },
-    "observed_org_by_probe": {
-      "local": "HostPapa",
-      "winbox": "Cloudflare Warp"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.104.52:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-013%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 626094.0,
-      "winbox": 368813.0
-    },
-    "probe_check_s": {
-      "local": 0.069335,
-      "winbox": 1.159953
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 368813.0,
-    "mainland_best_speed_bps": 368813.0,
-    "mainland_min_speed_bps": 368813.0,
-    "min_speed_bps": 368813.0,
-    "avg_speed_bps": 497453.5,
+    "priority_speed_bps": 471529.0,
+    "mainland_best_speed_bps": 471529.0,
+    "mainland_min_speed_bps": 471529.0,
+    "min_speed_bps": 471529.0,
+    "avg_speed_bps": 566392.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
@@ -1029,192 +478,6 @@
     },
     "observed_ip_by_probe": {
       "local": "104.168.76.144",
-      "winbox": "104.168.76.144"
-    },
-    "observed_org_by_probe": {
-      "local": "HostPapa",
-      "winbox": "HostPapa"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": false
-    },
-    "region_label": "",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@173.245.59.171:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-013%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 585216.0,
-      "winbox": 368467.0
-    },
-    "probe_check_s": {
-      "local": 0.215048,
-      "winbox": 0.650996
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 368467.0,
-    "mainland_best_speed_bps": 368467.0,
-    "mainland_min_speed_bps": 368467.0,
-    "min_speed_bps": 368467.0,
-    "avg_speed_bps": 476841.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-jp-011|JP|日本|Japan|CF官方优选11",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "43.175.16.246",
-      "winbox": "149.28.21.106"
-    },
-    "observed_org_by_probe": {
-      "local": "ACE CDN",
-      "winbox": "Vultr"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.181.81:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-011%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 438680.0,
-      "winbox": 367574.0
-    },
-    "probe_check_s": {
-      "local": 0.214417,
-      "winbox": 1.132678
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 367574.0,
-    "mainland_best_speed_bps": 367574.0,
-    "mainland_min_speed_bps": 367574.0,
-    "min_speed_bps": 367574.0,
-    "avg_speed_bps": 403127.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-jp-015|JP|日本|Japan|CF官方优选15",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "172.104.97.39",
-      "winbox": "149.28.21.106"
-    },
-    "observed_org_by_probe": {
-      "local": "Akamai Connected Cloud",
-      "winbox": "Vultr"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.160.162:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-015%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 660143.0,
-      "winbox": 364446.0
-    },
-    "probe_check_s": {
-      "local": 0.075146,
-      "winbox": 1.162708
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 364446.0,
-    "mainland_best_speed_bps": 364446.0,
-    "mainland_min_speed_bps": 364446.0,
-    "min_speed_bps": 364446.0,
-    "avg_speed_bps": 512294.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-006|SG|新加坡|Singapore|CF官方优选6",
-    "source": "edt2",
-    "country": "US",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "202.55.67.194",
-      "winbox": "172.245.53.232"
-    },
-    "observed_org_by_probe": {
-      "local": "Viewqwest",
-      "winbox": "HostPapa"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": false
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.152.138:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-006%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 663355.0,
-      "winbox": 363929.0
-    },
-    "probe_check_s": {
-      "local": 0.061107,
-      "winbox": 1.144639
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 363929.0,
-    "mainland_best_speed_bps": 363929.0,
-    "mainland_min_speed_bps": 363929.0,
-    "min_speed_bps": 363929.0,
-    "avg_speed_bps": 513642.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "reedge-007|CF官方优选",
-    "source": "reedge",
-    "country": "US",
-    "expected_country": "",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "104.168.76.144",
       "winbox": "107.174.131.32"
     },
     "observed_org_by_probe": {
@@ -1232,45 +495,88 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.22.220:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-007%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@198.41.223.176:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-013%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 419559.0,
-      "winbox": 362318.0
+      "local": 617771.0,
+      "winbox": 458517.0
     },
     "probe_check_s": {
-      "local": 0.20709,
-      "winbox": 1.176976
+      "local": 0.230033,
+      "winbox": 0.690638
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 362318.0,
-    "mainland_best_speed_bps": 362318.0,
-    "mainland_min_speed_bps": 362318.0,
-    "min_speed_bps": 362318.0,
-    "avg_speed_bps": 390938.5,
+    "priority_speed_bps": 458517.0,
+    "mainland_best_speed_bps": 458517.0,
+    "mainland_min_speed_bps": 458517.0,
+    "min_speed_bps": 458517.0,
+    "avg_speed_bps": 538144.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-jp-004|JP|日本|Japan|CF官方优选4",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
+    "name": "edt2-hk-010|HK|香港|Hong Kong|CF官方优选10",
+    "source": "edt2-hk",
+    "country": "HK",
+    "expected_country": "HK",
     "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
+      "local": "HK",
+      "winbox": "HK"
     },
     "observed_ip_by_probe": {
-      "local": "153.121.45.101",
-      "winbox": "149.28.21.106"
+      "local": "103.74.192.228",
+      "winbox": "123.254.106.203"
     },
     "observed_org_by_probe": {
-      "local": "SAKURA Internet",
-      "winbox": "Vultr"
+      "local": "Lucidacloud",
+      "winbox": "Cloudie"
     },
     "observed_country_match_by_probe": {
       "local": true,
       "winbox": true
+    },
+    "region_label": "香港",
+    "tags": [
+      "HK",
+      "Hong Kong",
+      "香港"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.18.47.5:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-010%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "probe_speeds_bps": {
+      "local": 631612.0,
+      "winbox": 457949.0
+    },
+    "probe_check_s": {
+      "local": 0.069967,
+      "winbox": 0.54108
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 457949.0,
+    "mainland_best_speed_bps": 457949.0,
+    "mainland_min_speed_bps": 457949.0,
+    "min_speed_bps": 457949.0,
+    "avg_speed_bps": 544780.5,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "edt2-jp-016|JP|日本|Japan|CF官方优选16",
+    "source": "edt2-jp",
+    "country": "JP",
+    "expected_country": "JP",
+    "observed_country_by_probe": {
+      "local": "JP"
+    },
+    "observed_ip_by_probe": {
+      "local": "141.147.185.63"
+    },
+    "observed_org_by_probe": {
+      "local": "Oracle Cloud"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "winbox": false
     },
     "region_label": "日本",
     "tags": [
@@ -1278,27 +584,70 @@
       "Japan",
       "日本"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.16.106:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-004%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@172.67.79.97:2087?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-016%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
     "probe_speeds_bps": {
-      "local": 654673.0,
-      "winbox": 361441.0
+      "local": 631229.0,
+      "winbox": 404075.0
     },
     "probe_check_s": {
-      "local": 0.059613,
-      "winbox": 1.136219
+      "local": 0.066005,
+      "winbox": 1.312959
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 361441.0,
-    "mainland_best_speed_bps": 361441.0,
-    "mainland_min_speed_bps": 361441.0,
-    "min_speed_bps": 361441.0,
-    "avg_speed_bps": 508057.0,
+    "priority_speed_bps": 404075.0,
+    "mainland_best_speed_bps": 404075.0,
+    "mainland_min_speed_bps": 404075.0,
+    "min_speed_bps": 404075.0,
+    "avg_speed_bps": 517652.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "reedge-018|CF官方优选",
+    "name": "edt2-jp-008|JP|日本|Japan|CF官方优选8",
+    "source": "edt2-jp",
+    "country": "JP",
+    "expected_country": "JP",
+    "observed_country_by_probe": {
+      "local": "JP"
+    },
+    "observed_ip_by_probe": {
+      "local": "172.104.97.39"
+    },
+    "observed_org_by_probe": {
+      "local": "Akamai Connected Cloud"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "winbox": false
+    },
+    "region_label": "日本",
+    "tags": [
+      "JP",
+      "Japan",
+      "日本"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.26.1.168:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-008%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "probe_speeds_bps": {
+      "local": 603522.0,
+      "winbox": 399042.0
+    },
+    "probe_check_s": {
+      "local": 0.061265,
+      "winbox": 1.433377
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 399042.0,
+    "mainland_best_speed_bps": 399042.0,
+    "mainland_min_speed_bps": 399042.0,
+    "min_speed_bps": 399042.0,
+    "avg_speed_bps": 501282.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "reedge-020|CF官方优选",
     "source": "reedge",
     "country": "US",
     "expected_country": "",
@@ -1325,481 +674,353 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.18.86.253:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-018%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.26.8.166:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-020%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 555714.0,
-      "winbox": 361267.0
+      "local": 580466.0,
+      "winbox": 392363.0
     },
     "probe_check_s": {
-      "local": 0.060472,
-      "winbox": 1.163381
+      "local": 0.196033,
+      "winbox": 1.392839
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 361267.0,
-    "mainland_best_speed_bps": 361267.0,
-    "mainland_min_speed_bps": 361267.0,
-    "min_speed_bps": 361267.0,
-    "avg_speed_bps": 458490.5,
+    "priority_speed_bps": 392363.0,
+    "mainland_best_speed_bps": 392363.0,
+    "mainland_min_speed_bps": 392363.0,
+    "min_speed_bps": 392363.0,
+    "avg_speed_bps": 486414.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-jp-007|JP|日本|Japan|CF官方优选7",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
+    "name": "edt2-012|SG|新加坡|Singapore|CF官方优选12",
+    "source": "edt2",
+    "country": "DE",
+    "expected_country": "SG",
     "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
+      "local": "SG",
+      "winbox": "DE"
     },
     "observed_ip_by_probe": {
-      "local": "141.147.185.63",
-      "winbox": "141.147.185.63"
+      "local": "43.128.68.13",
+      "winbox": "116.203.18.84"
     },
     "observed_org_by_probe": {
-      "local": "Oracle Cloud",
-      "winbox": "Oracle Cloud"
+      "local": "Tencent cloud computing",
+      "winbox": "Hetzner Online"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "winbox": false
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "DE",
+      "Germany",
+      "德国"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@172.67.66.194:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-012%7CDE%7CGermany%7C%E5%BE%B7%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 619190.0,
+      "winbox": 377905.0
+    },
+    "probe_check_s": {
+      "local": 0.056286,
+      "winbox": 1.428456
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 377905.0,
+    "mainland_best_speed_bps": 377905.0,
+    "mainland_min_speed_bps": 377905.0,
+    "min_speed_bps": 377905.0,
+    "avg_speed_bps": 498547.5,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "edt2-hk-007|HK|香港|Hong Kong|CF官方优选7",
+    "source": "edt2-hk",
+    "country": "HK",
+    "expected_country": "HK",
+    "observed_country_by_probe": {
+      "local": "HK",
+      "winbox": "HK"
+    },
+    "observed_ip_by_probe": {
+      "local": "202.46.32.182",
+      "winbox": "103.74.192.228"
+    },
+    "observed_org_by_probe": {
+      "local": "263 Global Communications",
+      "winbox": "Lucidacloud"
     },
     "observed_country_match_by_probe": {
       "local": true,
       "winbox": true
     },
-    "region_label": "日本",
+    "region_label": "香港",
     "tags": [
-      "JP",
-      "Japan",
-      "日本"
+      "HK",
+      "Hong Kong",
+      "香港"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.169.230:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-007%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.26.10.183:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-007%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
     "probe_speeds_bps": {
-      "local": 440599.0,
-      "winbox": 359682.0
+      "local": 406247.0,
+      "winbox": 374467.0
     },
     "probe_check_s": {
-      "local": 0.225744,
-      "winbox": 1.157515
+      "local": 0.094335,
+      "winbox": 1.454358
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 359682.0,
-    "mainland_best_speed_bps": 359682.0,
-    "mainland_min_speed_bps": 359682.0,
-    "min_speed_bps": 359682.0,
-    "avg_speed_bps": 400140.5,
+    "priority_speed_bps": 374467.0,
+    "mainland_best_speed_bps": 374467.0,
+    "mainland_min_speed_bps": 374467.0,
+    "min_speed_bps": 374467.0,
+    "avg_speed_bps": 390357.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-014|SG|新加坡|Singapore|CF官方优选14",
-    "source": "edt2",
+    "name": "reedge-024|CF官方优选",
+    "source": "reedge",
     "country": "US",
-    "expected_country": "SG",
+    "expected_country": "",
     "observed_country_by_probe": {
-      "local": "SG",
+      "local": "US",
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "104.248.145.216",
-      "winbox": "172.245.53.232"
+      "local": "107.174.131.32",
+      "winbox": "107.174.131.32"
     },
     "observed_org_by_probe": {
-      "local": "Digital Ocean",
+      "local": "HostPapa",
       "winbox": "HostPapa"
     },
     "observed_country_match_by_probe": {
-      "local": true,
+      "local": false,
       "winbox": false
     },
-    "region_label": "新加坡",
+    "region_label": "",
     "tags": [
       "US",
       "United States",
       "USA",
       "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.19.37.115:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-014%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.16.247.254:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-024%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 647982.0,
-      "winbox": 359640.0
+      "local": 397169.0,
+      "winbox": 368620.0
     },
     "probe_check_s": {
-      "local": 0.21323,
-      "winbox": 1.171782
+      "local": 0.234612,
+      "winbox": 1.106095
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 359640.0,
-    "mainland_best_speed_bps": 359640.0,
-    "mainland_min_speed_bps": 359640.0,
-    "min_speed_bps": 359640.0,
-    "avg_speed_bps": 503811.0,
+    "priority_speed_bps": 368620.0,
+    "mainland_best_speed_bps": 368620.0,
+    "mainland_min_speed_bps": 368620.0,
+    "min_speed_bps": 368620.0,
+    "avg_speed_bps": 382894.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-us-016|US|美国|United States|USA|CF官方优选16",
-    "source": "edt2-us",
+    "name": "edt2-hk-005|HK|香港|Hong Kong|CF官方优选5",
+    "source": "edt2-hk",
+    "country": "HK",
+    "expected_country": "HK",
+    "observed_country_by_probe": {
+      "local": "HK",
+      "winbox": "HK"
+    },
+    "observed_ip_by_probe": {
+      "local": "103.74.192.228",
+      "winbox": "103.74.192.228"
+    },
+    "observed_org_by_probe": {
+      "local": "Lucidacloud",
+      "winbox": "Lucidacloud"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "winbox": true
+    },
+    "region_label": "香港",
+    "tags": [
+      "HK",
+      "Hong Kong",
+      "香港"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@162.159.44.23:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-005%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "probe_speeds_bps": {
+      "local": 332272.0,
+      "winbox": 362330.0
+    },
+    "probe_check_s": {
+      "local": 0.423531,
+      "winbox": 0.581642
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 362330.0,
+    "mainland_best_speed_bps": 362330.0,
+    "mainland_min_speed_bps": 362330.0,
+    "min_speed_bps": 332272.0,
+    "avg_speed_bps": 347301.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "reedge-014|CF官方优选",
+    "source": "reedge",
     "country": "US",
-    "expected_country": "US",
+    "expected_country": "",
     "observed_country_by_probe": {
       "local": "US",
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "172.245.53.232",
-      "winbox": "104.28.195.185"
+      "local": "104.168.76.144",
+      "winbox": "107.174.131.32"
     },
     "observed_org_by_probe": {
       "local": "HostPapa",
-      "winbox": "Cloudflare Warp"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@172.66.0.123:2087?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-016%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 632334.0,
-      "winbox": 359382.0
-    },
-    "probe_check_s": {
-      "local": 0.233015,
-      "winbox": 1.164732
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 359382.0,
-    "mainland_best_speed_bps": 359382.0,
-    "mainland_min_speed_bps": 359382.0,
-    "min_speed_bps": 359382.0,
-    "avg_speed_bps": 495858.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-jp-010|JP|日本|Japan|CF官方优选10",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "43.175.16.246",
-      "winbox": "149.28.21.106"
-    },
-    "observed_org_by_probe": {
-      "local": "ACE CDN",
-      "winbox": "Vultr"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.19.63.36:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-010%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 664301.0,
-      "winbox": 359046.0
-    },
-    "probe_check_s": {
-      "local": 0.07094,
-      "winbox": 1.13268
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 359046.0,
-    "mainland_best_speed_bps": 359046.0,
-    "mainland_min_speed_bps": 359046.0,
-    "min_speed_bps": 359046.0,
-    "avg_speed_bps": 511673.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-011|SG|新加坡|Singapore|CF官方优选11",
-    "source": "edt2",
-    "country": "US",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "172.245.53.232",
-      "winbox": "38.180.204.104"
-    },
-    "observed_org_by_probe": {
-      "local": "HostPapa",
-      "winbox": "Hivelocity"
+      "winbox": "HostPapa"
     },
     "observed_country_match_by_probe": {
       "local": false,
       "winbox": false
     },
-    "region_label": "新加坡",
+    "region_label": "",
     "tags": [
       "US",
       "United States",
       "USA",
       "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.60.99:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-011%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@172.66.3.99:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-014%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 633365.0,
-      "winbox": 358763.0
+      "local": 427439.0,
+      "winbox": 359271.0
     },
     "probe_check_s": {
-      "local": 0.061727,
-      "winbox": 1.159828
+      "local": 0.216327,
+      "winbox": 1.156737
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 358763.0,
-    "mainland_best_speed_bps": 358763.0,
-    "mainland_min_speed_bps": 358763.0,
-    "min_speed_bps": 358763.0,
-    "avg_speed_bps": 496064.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-jp-009|JP|日本|Japan|CF官方优选9",
-    "source": "edt2-jp",
-    "country": "",
-    "expected_country": "JP",
-    "observed_country_by_probe": {},
-    "observed_ip_by_probe": {},
-    "observed_org_by_probe": {},
-    "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": false
-    },
-    "region_label": "日本",
-    "tags": [],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.171.92:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-009",
-    "probe_speeds_bps": {
-      "local": 664690.0,
-      "winbox": 358688.0
-    },
-    "probe_check_s": {
-      "local": 0.213644,
-      "winbox": 1.16738
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 358688.0,
-    "mainland_best_speed_bps": 358688.0,
-    "mainland_min_speed_bps": 358688.0,
-    "min_speed_bps": 358688.0,
-    "avg_speed_bps": 511689.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-010|US|美国|United States|USA|CF官方优选10",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "38.180.204.104",
-      "winbox": "104.28.195.185"
-    },
-    "observed_org_by_probe": {
-      "local": "Hivelocity",
-      "winbox": "Cloudflare Warp"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@173.245.59.78:2087?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-010%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 644469.0,
-      "winbox": 358635.0
-    },
-    "probe_check_s": {
-      "local": 0.059297,
-      "winbox": 0.568137
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 358635.0,
-    "mainland_best_speed_bps": 358635.0,
-    "mainland_min_speed_bps": 358635.0,
-    "min_speed_bps": 358635.0,
-    "avg_speed_bps": 501552.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-004|SG|新加坡|Singapore|CF官方优选4",
-    "source": "edt2",
-    "country": "US",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "38.180.204.104",
-      "winbox": "38.180.204.104"
-    },
-    "observed_org_by_probe": {
-      "local": "Hivelocity",
-      "winbox": "Hivelocity"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": false
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.16.250.26:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-004%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 633117.0,
-      "winbox": 358491.0
-    },
-    "probe_check_s": {
-      "local": 0.217454,
-      "winbox": 1.216017
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 358491.0,
-    "mainland_best_speed_bps": 358491.0,
-    "mainland_min_speed_bps": 358491.0,
-    "min_speed_bps": 358491.0,
-    "avg_speed_bps": 495804.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-008|US|美国|United States|USA|CF官方优选8",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "104.234.50.53",
-      "winbox": "35.212.224.56"
-    },
-    "observed_org_by_probe": {
-      "local": "OVHcloud",
-      "winbox": "Google Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.16.158.214:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-008%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 631935.0,
-      "winbox": 358468.0
-    },
-    "probe_check_s": {
-      "local": 0.225053,
-      "winbox": 1.152941
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 358468.0,
-    "mainland_best_speed_bps": 358468.0,
-    "mainland_min_speed_bps": 358468.0,
-    "min_speed_bps": 358468.0,
-    "avg_speed_bps": 495201.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-012|US|美国|United States|USA|CF官方优选12",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "172.245.53.232",
-      "winbox": "38.180.204.104"
-    },
-    "observed_org_by_probe": {
-      "local": "HostPapa",
-      "winbox": "Hivelocity"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.19.145.250:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-012%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 611704.0,
-      "winbox": 356440.0
-    },
-    "probe_check_s": {
-      "local": 0.068948,
-      "winbox": 1.147599
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 356440.0,
-    "mainland_best_speed_bps": 356440.0,
-    "mainland_min_speed_bps": 356440.0,
-    "min_speed_bps": 356440.0,
-    "avg_speed_bps": 484072.0,
+    "priority_speed_bps": 359271.0,
+    "mainland_best_speed_bps": 359271.0,
+    "mainland_min_speed_bps": 359271.0,
+    "min_speed_bps": 359271.0,
+    "avg_speed_bps": 393355.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
     "name": "reedge-011|CF官方优选",
+    "source": "reedge",
+    "country": "US",
+    "expected_country": "",
+    "observed_country_by_probe": {
+      "local": "US",
+      "winbox": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "107.174.131.32",
+      "winbox": "104.168.76.144"
+    },
+    "observed_org_by_probe": {
+      "local": "HostPapa",
+      "winbox": "HostPapa"
+    },
+    "observed_country_match_by_probe": {
+      "local": false,
+      "winbox": false
+    },
+    "region_label": "",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@108.162.198.76:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-011%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 385198.0,
+      "winbox": 357086.0
+    },
+    "probe_check_s": {
+      "local": 0.291452,
+      "winbox": 0.548123
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 357086.0,
+    "mainland_best_speed_bps": 357086.0,
+    "mainland_min_speed_bps": 357086.0,
+    "min_speed_bps": 357086.0,
+    "avg_speed_bps": 371142.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "reedge-017|CF官方优选",
+    "source": "reedge",
+    "country": "US",
+    "expected_country": "",
+    "observed_country_by_probe": {
+      "local": "US",
+      "winbox": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "104.168.76.144",
+      "winbox": "107.174.131.32"
+    },
+    "observed_org_by_probe": {
+      "local": "HostPapa",
+      "winbox": "HostPapa"
+    },
+    "observed_country_match_by_probe": {
+      "local": false,
+      "winbox": false
+    },
+    "region_label": "",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.49.214:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-017%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 397189.0,
+      "winbox": 356111.0
+    },
+    "probe_check_s": {
+      "local": 0.237958,
+      "winbox": 2.221445
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 356111.0,
+    "mainland_best_speed_bps": 356111.0,
+    "mainland_min_speed_bps": 356111.0,
+    "min_speed_bps": 356111.0,
+    "avg_speed_bps": 376650.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "reedge-007|CF官方优选",
     "source": "reedge",
     "country": "US",
     "expected_country": "",
@@ -1826,167 +1047,74 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.17.41:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-011%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@108.162.198.154:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-007%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 633774.0,
-      "winbox": 356256.0
+      "local": 295445.0,
+      "winbox": 354819.0
     },
     "probe_check_s": {
-      "local": 0.240952,
-      "winbox": 1.144833
+      "local": 0.254408,
+      "winbox": 0.577245
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 356256.0,
-    "mainland_best_speed_bps": 356256.0,
-    "mainland_min_speed_bps": 356256.0,
-    "min_speed_bps": 356256.0,
-    "avg_speed_bps": 495015.0,
+    "priority_speed_bps": 354819.0,
+    "mainland_best_speed_bps": 354819.0,
+    "mainland_min_speed_bps": 354819.0,
+    "min_speed_bps": 295445.0,
+    "avg_speed_bps": 325132.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-hk-004|HK|香港|Hong Kong|CF官方优选4",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "winbox": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "103.74.192.228",
-      "winbox": "123.254.106.203"
-    },
-    "observed_org_by_probe": {
-      "local": "Lucidacloud",
-      "winbox": "Cloudie"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@198.41.209.220:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-004%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 654306.0,
-      "winbox": 355516.0
-    },
-    "probe_check_s": {
-      "local": 0.062337,
-      "winbox": 1.411454
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 355516.0,
-    "mainland_best_speed_bps": 355516.0,
-    "mainland_min_speed_bps": 355516.0,
-    "min_speed_bps": 355516.0,
-    "avg_speed_bps": 504911.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-010|SG|新加坡|Singapore|CF官方优选10",
-    "source": "edt2",
+    "name": "reedge-001|CF官方优选",
+    "source": "reedge",
     "country": "US",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "104.248.145.216",
-      "winbox": "104.234.50.53"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "winbox": "OVHcloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": false
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.16.155.114:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-010%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 633357.0,
-      "winbox": 355341.0
-    },
-    "probe_check_s": {
-      "local": 0.068583,
-      "winbox": 1.34435
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 355341.0,
-    "mainland_best_speed_bps": 355341.0,
-    "mainland_min_speed_bps": 355341.0,
-    "min_speed_bps": 355341.0,
-    "avg_speed_bps": 494349.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-015|US|美国|United States|USA|CF官方优选15",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
+    "expected_country": "",
     "observed_country_by_probe": {
       "local": "US",
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "172.245.53.232",
-      "winbox": "104.28.195.185"
+      "local": "104.168.76.144",
+      "winbox": "107.174.131.32"
     },
     "observed_org_by_probe": {
       "local": "HostPapa",
-      "winbox": "Cloudflare Warp"
+      "winbox": "HostPapa"
     },
     "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
+      "local": false,
+      "winbox": false
     },
-    "region_label": "美国",
+    "region_label": "",
     "tags": [
       "US",
       "United States",
       "USA",
       "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.19.40.144:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-015%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.144.38:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-001%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 569118.0,
-      "winbox": 355332.0
+      "local": 662233.0,
+      "winbox": 353155.0
     },
     "probe_check_s": {
-      "local": 0.059077,
-      "winbox": 1.155744
+      "local": 0.249098,
+      "winbox": 1.123512
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 355332.0,
-    "mainland_best_speed_bps": 355332.0,
-    "mainland_min_speed_bps": 355332.0,
-    "min_speed_bps": 355332.0,
-    "avg_speed_bps": 462225.0,
+    "priority_speed_bps": 353155.0,
+    "mainland_best_speed_bps": 353155.0,
+    "mainland_min_speed_bps": 353155.0,
+    "min_speed_bps": 353155.0,
+    "avg_speed_bps": 507694.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-us-004|US|美国|United States|USA|CF官方优选4",
+    "name": "edt2-us-007|US|美国|United States|USA|CF官方优选7",
     "source": "edt2-us",
     "country": "US",
     "expected_country": "US",
@@ -1995,12 +1123,12 @@
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "35.212.224.56",
-      "winbox": "104.28.195.185"
+      "local": "96.8.121.29",
+      "winbox": "20.121.115.188"
     },
     "observed_org_by_probe": {
-      "local": "Google Cloud",
-      "winbox": "Cloudflare Warp"
+      "local": "HostPapa",
+      "winbox": "Microsoft Azure"
     },
     "observed_country_match_by_probe": {
       "local": true,
@@ -2013,67 +1141,21 @@
       "USA",
       "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.19.50.4:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-004%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.18.128:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-007%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 645288.0,
-      "winbox": 355016.0
+      "local": 592029.0,
+      "winbox": 351110.0
     },
     "probe_check_s": {
-      "local": 0.060139,
-      "winbox": 1.156588
+      "local": 0.066681,
+      "winbox": 1.210152
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 355016.0,
-    "mainland_best_speed_bps": 355016.0,
-    "mainland_min_speed_bps": 355016.0,
-    "min_speed_bps": 355016.0,
-    "avg_speed_bps": 500152.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-hk-014|HK|香港|Hong Kong|CF官方优选14",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "winbox": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "103.74.192.228",
-      "winbox": "103.219.194.43"
-    },
-    "observed_org_by_probe": {
-      "local": "Lucidacloud",
-      "winbox": "Bage Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.216.21:2087?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-014%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 629979.0,
-      "winbox": 353588.0
-    },
-    "probe_check_s": {
-      "local": 0.056798,
-      "winbox": 1.207808
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 353588.0,
-    "mainland_best_speed_bps": 353588.0,
-    "mainland_min_speed_bps": 353588.0,
-    "min_speed_bps": 353588.0,
-    "avg_speed_bps": 491783.5,
+    "priority_speed_bps": 351110.0,
+    "mainland_best_speed_bps": 351110.0,
+    "mainland_min_speed_bps": 351110.0,
+    "min_speed_bps": 351110.0,
+    "avg_speed_bps": 471569.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
@@ -2106,37 +1188,84 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.19.63.132:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-023%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@198.41.223.2:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-023%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 633806.0,
-      "winbox": 352696.0
+      "local": 639754.0,
+      "winbox": 349999.0
     },
     "probe_check_s": {
-      "local": 0.232406,
-      "winbox": 1.166901
+      "local": 0.212176,
+      "winbox": 0.653377
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 352696.0,
-    "mainland_best_speed_bps": 352696.0,
-    "mainland_min_speed_bps": 352696.0,
-    "min_speed_bps": 352696.0,
-    "avg_speed_bps": 493251.0,
+    "priority_speed_bps": 349999.0,
+    "mainland_best_speed_bps": 349999.0,
+    "mainland_min_speed_bps": 349999.0,
+    "min_speed_bps": 349999.0,
+    "avg_speed_bps": 494876.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-013|SG|新加坡|Singapore|CF官方优选13",
-    "source": "edt2",
+    "name": "edt2-us-011|US|美国|United States|USA|CF官方优选11",
+    "source": "edt2-us",
     "country": "US",
-    "expected_country": "SG",
+    "expected_country": "US",
     "observed_country_by_probe": {
       "local": "US",
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "172.245.53.232",
-      "winbox": "172.245.53.232"
+      "local": "167.99.96.149",
+      "winbox": "4.155.83.212"
+    },
+    "observed_org_by_probe": {
+      "local": "Digital Ocean",
+      "winbox": "Microsoft Azure"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "winbox": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.28.33:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-011%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 437957.0,
+      "winbox": 349579.0
+    },
+    "probe_check_s": {
+      "local": 0.258719,
+      "winbox": 1.233092
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 349579.0,
+    "mainland_best_speed_bps": 349579.0,
+    "mainland_min_speed_bps": 349579.0,
+    "min_speed_bps": 349579.0,
+    "avg_speed_bps": 393768.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "reedge-016|CF官方优选",
+    "source": "reedge",
+    "country": "US",
+    "expected_country": "",
+    "observed_country_by_probe": {
+      "local": "US",
+      "winbox": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "104.168.76.144",
+      "winbox": "104.168.76.144"
     },
     "observed_org_by_probe": {
       "local": "HostPapa",
@@ -2146,80 +1275,124 @@
       "local": false,
       "winbox": false
     },
-    "region_label": "新加坡",
+    "region_label": "",
     "tags": [
       "US",
       "United States",
       "USA",
       "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.182.173:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-013%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@108.162.198.81:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-016%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 664810.0,
-      "winbox": 351972.0
+      "local": 378914.0,
+      "winbox": 348330.0
     },
     "probe_check_s": {
-      "local": 0.218801,
-      "winbox": 1.21421
+      "local": 0.246719,
+      "winbox": 0.560679
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 351972.0,
-    "mainland_best_speed_bps": 351972.0,
-    "mainland_min_speed_bps": 351972.0,
-    "min_speed_bps": 351972.0,
-    "avg_speed_bps": 508391.0,
+    "priority_speed_bps": 348330.0,
+    "mainland_best_speed_bps": 348330.0,
+    "mainland_min_speed_bps": 348330.0,
+    "min_speed_bps": 348330.0,
+    "avg_speed_bps": 363622.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-jp-016|JP|日本|Japan|CF官方优选16",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
+    "name": "edt2-hk-016|HK|香港|Hong Kong|CF官方优选16",
+    "source": "edt2-hk",
+    "country": "HK",
+    "expected_country": "HK",
     "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
+      "local": "HK",
+      "winbox": "HK"
     },
     "observed_ip_by_probe": {
-      "local": "153.121.45.101",
-      "winbox": "168.138.212.80"
+      "local": "176.98.181.71",
+      "winbox": "176.98.181.71"
     },
     "observed_org_by_probe": {
-      "local": "SAKURA Internet",
-      "winbox": "Oracle Cloud"
+      "local": "eServer",
+      "winbox": "eServer"
     },
     "observed_country_match_by_probe": {
       "local": true,
       "winbox": true
     },
-    "region_label": "日本",
+    "region_label": "香港",
     "tags": [
-      "JP",
-      "Japan",
-      "日本"
+      "HK",
+      "Hong Kong",
+      "香港"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@91.193.59.10:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-016%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@198.41.223.140:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-016%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
     "probe_speeds_bps": {
-      "local": 602009.0,
-      "winbox": 351732.0
+      "local": 619861.0,
+      "winbox": 345350.0
     },
     "probe_check_s": {
-      "local": 0.196973,
-      "winbox": 1.178518
+      "local": 0.211069,
+      "winbox": 0.522243
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 351732.0,
-    "mainland_best_speed_bps": 351732.0,
-    "mainland_min_speed_bps": 351732.0,
-    "min_speed_bps": 351732.0,
-    "avg_speed_bps": 476870.5,
+    "priority_speed_bps": 345350.0,
+    "mainland_best_speed_bps": 345350.0,
+    "mainland_min_speed_bps": 345350.0,
+    "min_speed_bps": 345350.0,
+    "avg_speed_bps": 482605.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "reedge-009|CF官方优选",
+    "name": "edt2-us-010|US|美国|United States|USA|CF官方优选10",
+    "source": "edt2-us",
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "winbox": "US"
+    },
+    "observed_ip_by_probe": {
+      "winbox": "4.155.83.212"
+    },
+    "observed_org_by_probe": {
+      "winbox": "Microsoft Azure"
+    },
+    "observed_country_match_by_probe": {
+      "local": false,
+      "winbox": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.63.42:2087?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-010%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 655941.0,
+      "winbox": 344931.0
+    },
+    "probe_check_s": {
+      "local": 0.228912,
+      "winbox": 1.232527
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 344931.0,
+    "mainland_best_speed_bps": 344931.0,
+    "mainland_min_speed_bps": 344931.0,
+    "min_speed_bps": 344931.0,
+    "avg_speed_bps": 500436.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "reedge-025|CF官方优选",
     "source": "reedge",
     "country": "US",
     "expected_country": "",
@@ -2246,114 +1419,54 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.152.97:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-009%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.168.167:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-025%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 437186.0,
-      "winbox": 351512.0
+      "local": 409887.0,
+      "winbox": 342078.0
     },
     "probe_check_s": {
-      "local": 0.062823,
-      "winbox": 1.251821
+      "local": 0.258016,
+      "winbox": 1.234339
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 351512.0,
-    "mainland_best_speed_bps": 351512.0,
-    "mainland_min_speed_bps": 351512.0,
-    "min_speed_bps": 351512.0,
-    "avg_speed_bps": 394349.0,
+    "priority_speed_bps": 342078.0,
+    "mainland_best_speed_bps": 342078.0,
+    "mainland_min_speed_bps": 342078.0,
+    "min_speed_bps": 342078.0,
+    "avg_speed_bps": 375982.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-jp-005|JP|日本|Japan|CF官方优选5",
-    "source": "edt2-jp",
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "149.28.21.106",
-      "winbox": "168.138.212.80"
-    },
-    "observed_org_by_probe": {
-      "local": "Vultr",
-      "winbox": "Oracle Cloud"
-    },
+    "name": "edt2-006|SG|新加坡|Singapore|CF官方优选6",
+    "source": "edt2",
+    "country": "",
+    "expected_country": "SG",
+    "observed_country_by_probe": {},
+    "observed_ip_by_probe": {},
+    "observed_org_by_probe": {},
     "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
+      "local": false,
+      "winbox": false
     },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.19.152.228:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-005%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "region_label": "新加坡",
+    "tags": [],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@173.245.58.217:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-006",
     "probe_speeds_bps": {
-      "local": 637443.0,
-      "winbox": 349952.0
+      "local": 613068.0,
+      "winbox": 340665.0
     },
     "probe_check_s": {
-      "local": 0.079159,
-      "winbox": 1.119575
+      "local": 0.230303,
+      "winbox": 0.659424
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 349952.0,
-    "mainland_best_speed_bps": 349952.0,
-    "mainland_min_speed_bps": 349952.0,
-    "min_speed_bps": 349952.0,
-    "avg_speed_bps": 493697.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-us-001|US|美国|United States|USA|CF官方优选1",
-    "source": "edt2-us",
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "35.212.224.56",
-      "winbox": "104.28.195.185"
-    },
-    "observed_org_by_probe": {
-      "local": "Google Cloud",
-      "winbox": "Cloudflare Warp"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.184.93:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-001%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 625180.0,
-      "winbox": 349847.0
-    },
-    "probe_check_s": {
-      "local": 0.059339,
-      "winbox": 1.153986
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 349847.0,
-    "mainland_best_speed_bps": 349847.0,
-    "mainland_min_speed_bps": 349847.0,
-    "min_speed_bps": 349847.0,
-    "avg_speed_bps": 487513.5,
+    "priority_speed_bps": 340665.0,
+    "mainland_best_speed_bps": 340665.0,
+    "mainland_min_speed_bps": 340665.0,
+    "min_speed_bps": 340665.0,
+    "avg_speed_bps": 476866.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
@@ -2368,7 +1481,7 @@
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "107.174.131.32",
+      "local": "104.168.76.144",
       "winbox": "104.168.76.144"
     },
     "observed_org_by_probe": {
@@ -2386,88 +1499,44 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.105.200:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-015%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.19.47.83:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-015%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 561858.0,
-      "winbox": 349811.0
+      "local": 588242.0,
+      "winbox": 340542.0
     },
     "probe_check_s": {
-      "local": 0.056494,
-      "winbox": 1.132926
+      "local": 0.073252,
+      "winbox": 1.176827
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 349811.0,
-    "mainland_best_speed_bps": 349811.0,
-    "mainland_min_speed_bps": 349811.0,
-    "min_speed_bps": 349811.0,
-    "avg_speed_bps": 455834.5,
+    "priority_speed_bps": 340542.0,
+    "mainland_best_speed_bps": 340542.0,
+    "mainland_min_speed_bps": 340542.0,
+    "min_speed_bps": 340542.0,
+    "avg_speed_bps": 464392.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-001|SG|新加坡|Singapore|CF官方优选1",
-    "source": "edt2",
-    "country": "US",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "104.248.145.216",
-      "winbox": "38.180.204.104"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "winbox": "Hivelocity"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": false
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@91.193.59.135:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-001%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 648488.0,
-      "winbox": 349078.0
-    },
-    "probe_check_s": {
-      "local": 0.062207,
-      "winbox": 1.197297
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 349078.0,
-    "mainland_best_speed_bps": 349078.0,
-    "mainland_min_speed_bps": 349078.0,
-    "min_speed_bps": 349078.0,
-    "avg_speed_bps": 498783.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-jp-001|JP|日本|Japan|CF官方优选1",
+    "name": "edt2-jp-005|JP|日本|Japan|CF官方优选5",
     "source": "edt2-jp",
     "country": "JP",
     "expected_country": "JP",
     "observed_country_by_probe": {
+      "local": "JP",
       "winbox": "JP"
     },
     "observed_ip_by_probe": {
-      "winbox": "168.138.212.80"
+      "local": "64.110.104.30",
+      "winbox": "138.3.214.171"
     },
     "observed_org_by_probe": {
+      "local": "Oracle Cloud",
       "winbox": "Oracle Cloud"
     },
     "observed_country_match_by_probe": {
-      "local": false,
+      "local": true,
       "winbox": true
     },
     "region_label": "日本",
@@ -2476,212 +1545,164 @@
       "Japan",
       "日本"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@162.159.45.244:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-001%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@173.245.59.165:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edt2-jp-005%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
     "probe_speeds_bps": {
-      "local": 363191.0,
-      "winbox": 348937.0
+      "local": 628255.0,
+      "winbox": 340190.0
     },
     "probe_check_s": {
-      "local": 0.42,
-      "winbox": 0.601003
+      "local": 0.072532,
+      "winbox": 0.527186
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 348937.0,
-    "mainland_best_speed_bps": 348937.0,
-    "mainland_min_speed_bps": 348937.0,
-    "min_speed_bps": 348937.0,
-    "avg_speed_bps": 356064.0,
+    "priority_speed_bps": 340190.0,
+    "mainland_best_speed_bps": 340190.0,
+    "mainland_min_speed_bps": 340190.0,
+    "min_speed_bps": 340190.0,
+    "avg_speed_bps": 484222.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-hk-007|HK|香港|Hong Kong|CF官方优选7",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "winbox": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "154.38.116.8",
-      "winbox": "159.138.138.87"
-    },
-    "observed_org_by_probe": {
-      "local": "Hong Kong Communications International",
-      "winbox": "Huawei Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.19.52.163:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-007%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 657320.0,
-      "winbox": 347591.0
-    },
-    "probe_check_s": {
-      "local": 0.072507,
-      "winbox": 1.174199
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 347591.0,
-    "mainland_best_speed_bps": 347591.0,
-    "mainland_min_speed_bps": 347591.0,
-    "min_speed_bps": 347591.0,
-    "avg_speed_bps": 502455.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-hk-009|HK|香港|Hong Kong|CF官方优选9",
-    "source": "edt2-hk",
-    "country": "SC",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "SC",
-      "winbox": "SC"
-    },
-    "observed_ip_by_probe": {
-      "local": "156.239.245.130",
-      "winbox": "156.239.245.130"
-    },
-    "observed_org_by_probe": {
-      "local": "Zenlayer",
-      "winbox": "Zenlayer"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": false
-    },
-    "region_label": "香港",
-    "tags": [
-      "SC",
-      "Seychelles",
-      "塞舌尔"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.48.35:2087?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-009%7CSC%7CSeychelles%7C%E5%A1%9E%E8%88%8C%E5%B0%94",
-    "probe_speeds_bps": {
-      "local": 613164.0,
-      "winbox": 347314.0
-    },
-    "probe_check_s": {
-      "local": 0.223007,
-      "winbox": 1.2024
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 347314.0,
-    "mainland_best_speed_bps": 347314.0,
-    "mainland_min_speed_bps": 347314.0,
-    "min_speed_bps": 347314.0,
-    "avg_speed_bps": 480239.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "reedge-020|CF官方优选",
-    "source": "reedge",
+    "name": "edt2-us-003|US|美国|United States|USA|CF官方优选3",
+    "source": "edt2-us",
     "country": "US",
-    "expected_country": "",
+    "expected_country": "US",
     "observed_country_by_probe": {
       "local": "US",
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "104.168.76.144",
-      "winbox": "107.174.131.32"
+      "local": "104.168.87.130",
+      "winbox": "4.155.83.212"
     },
     "observed_org_by_probe": {
       "local": "HostPapa",
-      "winbox": "HostPapa"
+      "winbox": "Microsoft Azure"
     },
     "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": false
+      "local": true,
+      "winbox": true
     },
-    "region_label": "",
+    "region_label": "美国",
     "tags": [
       "US",
       "United States",
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@91.193.58.132:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-020%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.48.115:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edt2-us-003%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 658078.0,
-      "winbox": 345074.0
+      "local": 406246.0,
+      "winbox": 338953.0
     },
     "probe_check_s": {
-      "local": 0.228125,
-      "winbox": 1.201204
+      "local": 0.0747,
+      "winbox": 1.166452
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 345074.0,
-    "mainland_best_speed_bps": 345074.0,
-    "mainland_min_speed_bps": 345074.0,
-    "min_speed_bps": 345074.0,
-    "avg_speed_bps": 501576.0,
+    "priority_speed_bps": 338953.0,
+    "mainland_best_speed_bps": 338953.0,
+    "mainland_min_speed_bps": 338953.0,
+    "min_speed_bps": 338953.0,
+    "avg_speed_bps": 372599.5,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-hk-002|HK|香港|Hong Kong|CF官方优选2",
+    "name": "edt2-hk-001|HK|香港|Hong Kong|CF官方优选1",
     "source": "edt2-hk",
-    "country": "HK",
+    "country": "CN",
     "expected_country": "HK",
     "observed_country_by_probe": {
-      "local": "SC",
-      "winbox": "HK"
+      "local": "HK",
+      "winbox": "CN"
     },
     "observed_ip_by_probe": {
-      "local": "156.239.245.130",
-      "winbox": "103.219.194.43"
+      "local": "123.254.106.203",
+      "winbox": "202.46.34.74"
     },
     "observed_org_by_probe": {
-      "local": "Zenlayer",
-      "winbox": "Bage Cloud"
+      "local": "Cloudie",
+      "winbox": "263 Global Communications"
     },
     "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": true
+      "local": true,
+      "winbox": false
     },
     "region_label": "香港",
     "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
+      "CN"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.19.36.171:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-002%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@8.39.125.40:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-001%7CCN",
     "probe_speeds_bps": {
-      "local": 639082.0,
-      "winbox": 344767.0
+      "local": 628281.0,
+      "winbox": 338547.0
     },
     "probe_check_s": {
-      "local": 0.203203,
-      "winbox": 1.194414
+      "local": 0.06466,
+      "winbox": 0.578852
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 344767.0,
-    "mainland_best_speed_bps": 344767.0,
-    "mainland_min_speed_bps": 344767.0,
-    "min_speed_bps": 344767.0,
-    "avg_speed_bps": 491924.5,
+    "priority_speed_bps": 338547.0,
+    "mainland_best_speed_bps": 338547.0,
+    "mainland_min_speed_bps": 338547.0,
+    "min_speed_bps": 338547.0,
+    "avg_speed_bps": 483414.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-016|SG|新加坡|Singapore|CF官方优选16",
+    "name": "edt2-005|SG|新加坡|Singapore|CF官方优选5",
+    "source": "edt2",
+    "country": "DE",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "winbox": "DE"
+    },
+    "observed_ip_by_probe": {
+      "local": "139.162.23.48",
+      "winbox": "88.99.189.60"
+    },
+    "observed_org_by_probe": {
+      "local": "Akamai Connected Cloud",
+      "winbox": "Hetzner Online"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "winbox": false
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "DE",
+      "Germany",
+      "德国"
+    ],
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@172.67.67.115:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-005%7CDE%7CGermany%7C%E5%BE%B7%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 409075.0,
+      "winbox": 337779.0
+    },
+    "probe_check_s": {
+      "local": 0.052968,
+      "winbox": 1.428379
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 337779.0,
+    "mainland_best_speed_bps": 337779.0,
+    "mainland_min_speed_bps": 337779.0,
+    "min_speed_bps": 337779.0,
+    "avg_speed_bps": 373427.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
+    "name": "edt2-004|SG|新加坡|Singapore|CF官方优选4",
     "source": "edt2",
     "country": "US",
     "expected_country": "SG",
@@ -2690,11 +1711,11 @@
       "winbox": "US"
     },
     "observed_ip_by_probe": {
-      "local": "104.248.145.216",
-      "winbox": "172.245.53.232"
+      "local": "139.162.23.48",
+      "winbox": "104.168.87.130"
     },
     "observed_org_by_probe": {
-      "local": "Digital Ocean",
+      "local": "Akamai Connected Cloud",
       "winbox": "HostPapa"
     },
     "observed_country_match_by_probe": {
@@ -2708,252 +1729,115 @@
       "USA",
       "美国"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.151.185:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-016%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.100.14:8443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-004%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 635987.0,
-      "winbox": 344313.0
+      "local": 628994.0,
+      "winbox": 333950.0
     },
     "probe_check_s": {
-      "local": 0.219123,
-      "winbox": 1.168488
+      "local": 0.073678,
+      "winbox": 1.208675
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 344313.0,
-    "mainland_best_speed_bps": 344313.0,
-    "mainland_min_speed_bps": 344313.0,
-    "min_speed_bps": 344313.0,
-    "avg_speed_bps": 490150.0,
+    "priority_speed_bps": 333950.0,
+    "mainland_best_speed_bps": 333950.0,
+    "mainland_min_speed_bps": 333950.0,
+    "min_speed_bps": 333950.0,
+    "avg_speed_bps": 481472.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-hk-010|HK|香港|Hong Kong|CF官方优选10",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
+    "name": "edt2-013|SG|新加坡|Singapore|CF官方优选13",
+    "source": "edt2",
+    "country": "SG",
+    "expected_country": "SG",
     "observed_country_by_probe": {
-      "local": "SC",
-      "winbox": "HK"
+      "local": "SG",
+      "winbox": "SG"
     },
     "observed_ip_by_probe": {
-      "local": "156.230.12.66",
-      "winbox": "123.254.106.203"
+      "local": "159.89.207.154",
+      "winbox": "43.128.68.13"
     },
     "observed_org_by_probe": {
-      "local": "263 Global Communications",
-      "winbox": "Cloudie"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.148.15:2096?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-010%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 629658.0,
-      "winbox": 336404.0
-    },
-    "probe_check_s": {
-      "local": 0.059572,
-      "winbox": 1.233425
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 336404.0,
-    "mainland_best_speed_bps": 336404.0,
-    "mainland_min_speed_bps": 336404.0,
-    "min_speed_bps": 336404.0,
-    "avg_speed_bps": 483031.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-hk-015|HK|香港|Hong Kong|CF官方优选15",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "winbox": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "103.74.192.228",
-      "winbox": "103.219.194.43"
-    },
-    "observed_org_by_probe": {
-      "local": "Lucidacloud",
-      "winbox": "Bage Cloud"
+      "local": "Digital Ocean",
+      "winbox": "Tencent cloud computing"
     },
     "observed_country_match_by_probe": {
       "local": true,
       "winbox": true
     },
-    "region_label": "香港",
+    "region_label": "新加坡",
     "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
+      "SG",
+      "Singapore",
+      "新加坡"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@172.67.66.92:443?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-015%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@198.41.223.45:2083?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2F&encryption=none#edt2-013%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
     "probe_speeds_bps": {
-      "local": 618362.0,
-      "winbox": 329164.0
+      "local": 573272.0,
+      "winbox": 293734.0
     },
     "probe_check_s": {
-      "local": 0.065427,
-      "winbox": 1.422917
+      "local": 0.206366,
+      "winbox": 0.501564
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 329164.0,
-    "mainland_best_speed_bps": 329164.0,
-    "mainland_min_speed_bps": 329164.0,
-    "min_speed_bps": 329164.0,
-    "avg_speed_bps": 473763.0,
+    "priority_speed_bps": 293734.0,
+    "mainland_best_speed_bps": 293734.0,
+    "mainland_min_speed_bps": 293734.0,
+    "min_speed_bps": 293734.0,
+    "avg_speed_bps": 433503.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
   },
   {
-    "name": "edt2-hk-011|HK|香港|Hong Kong|CF官方优选11",
-    "source": "edt2-hk",
-    "country": "HK",
-    "expected_country": "HK",
+    "name": "oci2-reality-001|SG|新加坡|Singapore|REALITY|VPS|oci2-SG|SG|新加坡|Singapore|REALITY|VPS",
+    "source": "oci2-reality",
+    "country": "SG",
+    "expected_country": "SG",
     "observed_country_by_probe": {
-      "local": "HK",
-      "winbox": "HK"
+      "local": "SG",
+      "winbox": "SG"
     },
     "observed_ip_by_probe": {
-      "local": "159.138.138.87",
-      "winbox": "103.219.194.43"
+      "local": "161.118.247.68",
+      "winbox": "161.118.247.68"
     },
     "observed_org_by_probe": {
-      "local": "Huawei Cloud",
-      "winbox": "Bage Cloud"
+      "local": "Oracle Cloud",
+      "winbox": "Oracle Cloud"
     },
     "observed_country_match_by_probe": {
       "local": true,
       "winbox": true
     },
-    "region_label": "香港",
+    "region_label": "新加坡",
     "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
+      "SG",
+      "Singapore",
+      "新加坡",
+      "REALITY",
+      "VPS"
     ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.120.128:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-011%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://6a23f2ef-07a4-4541-9560-936cf1e6073b@161.118.247.68:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.microsoft.com&fp=chrome&pbk=lc-UtiHJpguxs339AoDCm1FbLaP6DbtXc-9LdPNjJQA&sid=48c2f011&type=tcp#oci2-reality-001%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1%7CREALITY%7CVPS",
     "probe_speeds_bps": {
-      "local": 646382.0,
-      "winbox": 325863.0
+      "local": 243246.0,
+      "winbox": 175108.0
     },
     "probe_check_s": {
-      "local": 0.211776,
-      "winbox": 1.408646
+      "local": 0.0364,
+      "winbox": 1.84091
     },
     "priority_probe": "winbox",
-    "priority_speed_bps": 325863.0,
-    "mainland_best_speed_bps": 325863.0,
-    "mainland_min_speed_bps": 325863.0,
-    "min_speed_bps": 325863.0,
-    "avg_speed_bps": 486122.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "reedge-030|CF官方优选",
-    "source": "reedge",
-    "country": "US",
-    "expected_country": "",
-    "observed_country_by_probe": {
-      "local": "US",
-      "winbox": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "107.174.131.32",
-      "winbox": "107.174.131.32"
-    },
-    "observed_org_by_probe": {
-      "local": "HostPapa",
-      "winbox": "HostPapa"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "winbox": false
-    },
-    "region_label": "",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.155.81:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-030%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 633328.0,
-      "winbox": 324569.0
-    },
-    "probe_check_s": {
-      "local": 0.057031,
-      "winbox": 1.139918
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 324569.0,
-    "mainland_best_speed_bps": 324569.0,
-    "mainland_min_speed_bps": 324569.0,
-    "min_speed_bps": 324569.0,
-    "avg_speed_bps": 478948.5,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
-    "name": "edt2-hk-003|HK|香港|Hong Kong|CF官方优选3",
-    "source": "edt2-hk",
-    "country": "SC",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "winbox": "SC"
-    },
-    "observed_ip_by_probe": {
-      "local": "123.254.106.203",
-      "winbox": "156.239.245.130"
-    },
-    "observed_org_by_probe": {
-      "local": "Cloudie",
-      "winbox": "Zenlayer"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": false
-    },
-    "region_label": "香港",
-    "tags": [
-      "SC",
-      "Seychelles",
-      "塞舌尔"
-    ],
-    "line": "vless://f0841bb1-00ff-4841-ba14-a3ec24d94bb5@104.17.184.130:2053?security=tls&type=ws&host=edt.akkk.qzz.io&fp=chrome&sni=edt.akkk.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edt2-hk-003%7CSC%7CSeychelles%7C%E5%A1%9E%E8%88%8C%E5%B0%94",
-    "probe_speeds_bps": {
-      "local": 418955.0,
-      "winbox": 297628.0
-    },
-    "probe_check_s": {
-      "local": 0.062065,
-      "winbox": 1.220024
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 297628.0,
-    "mainland_best_speed_bps": 297628.0,
-    "mainland_min_speed_bps": 297628.0,
-    "min_speed_bps": 297628.0,
-    "avg_speed_bps": 358291.5,
+    "priority_speed_bps": 175108.0,
+    "mainland_best_speed_bps": 175108.0,
+    "mainland_min_speed_bps": 175108.0,
+    "min_speed_bps": 175108.0,
+    "avg_speed_bps": 209177.0,
     "mainland_confirmed_by": [
       "winbox"
     ]
