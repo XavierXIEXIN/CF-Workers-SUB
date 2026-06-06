@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-06-06 10:10:03",
+  "updated_at": "2026-06-06 11:00:45",
   "scheduled_source_statuses": [
     "mainland-proven"
   ],
@@ -9,7 +9,11 @@
     "oci2-reality",
     "edt2-us",
     "edt2-jp",
-    "edt2-hk"
+    "edt2-hk",
+    "edge2",
+    "edge2-us",
+    "edge2-jp",
+    "edge2-hk"
   ],
   "scheduled_sources": [
     "reedge",
@@ -17,7 +21,11 @@
     "oci2-reality",
     "edt2-us",
     "edt2-jp",
-    "edt2-hk"
+    "edt2-hk",
+    "edge2",
+    "edge2-us",
+    "edge2-jp",
+    "edge2-hk"
   ],
   "sources": [
     {
@@ -46,7 +54,7 @@
       "tags": [],
       "note": "Primary custom-domain source (re-edgetunnel worker, host/sni=reedge.akkk.qzz.io). Custom-domain SNI passes the GFW where workers.dev does not (verified from zhongb 2026-06-03). Re-enabled as the working scheduled source.",
       "candidate_count": 32,
-      "selected_count": 8,
+      "selected_count": 1,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 32,
@@ -66,7 +74,7 @@
       ],
       "note": "cmliu edgetunnel 2.x deployed 2026-06-03 (worker edt2, custom domain edt.akkk.qzz.io, PROXYIP=proxyip.cmliussss.net for exit). Custom-domain SNI. Panel at /<UUID>. Mainland survivors are gated by the merge as usual; widens the candidate pool beyond reedge. Exit verified as SG via Check ProxyIP 2026-06-03; keep country metadata only while PROXYIP remains unchanged.",
       "candidate_count": 16,
-      "selected_count": 9,
+      "selected_count": 4,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 48,
@@ -109,7 +117,7 @@
       ],
       "note": "Derived from edt2 with US ProxyIP; keep only nodes proven by mainland probes.",
       "candidate_count": 16,
-      "selected_count": 5,
+      "selected_count": 4,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 16,
@@ -129,7 +137,7 @@
       ],
       "note": "Derived from edt2 with JP ProxyIP; keep only nodes proven by mainland probes.",
       "candidate_count": 16,
-      "selected_count": 7,
+      "selected_count": 4,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 16,
@@ -149,7 +157,7 @@
       ],
       "note": "Derived from edt2 with HK ProxyIP; keep only nodes proven by mainland probes.",
       "candidate_count": 16,
-      "selected_count": 11,
+      "selected_count": 5,
       "fetch_error_count": 0,
       "repeat": 1,
       "limit": 16,
@@ -249,6 +257,87 @@
       "fetch_error_count": 1,
       "repeat": 1,
       "limit": 32,
+      "cache_bust": true
+    },
+    {
+      "name": "edge2",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "country": "SG",
+      "region_label": "新加坡",
+      "tags": [
+        "SG",
+        "新加坡",
+        "Singapore"
+      ],
+      "note": "Account2 edge2 worker (custom domain e.abbb.qzz.io). Splits CF Worker quota across two accounts.",
+      "candidate_count": 16,
+      "selected_count": 5,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 48,
+      "cache_bust": true
+    },
+    {
+      "name": "edge2-us",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "country": "US",
+      "region_label": "美国",
+      "tags": [
+        "US",
+        "美国",
+        "United States",
+        "USA"
+      ],
+      "note": "",
+      "candidate_count": 16,
+      "selected_count": 7,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 16,
+      "cache_bust": true
+    },
+    {
+      "name": "edge2-jp",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "country": "JP",
+      "region_label": "日本",
+      "tags": [
+        "JP",
+        "日本",
+        "Japan"
+      ],
+      "note": "",
+      "candidate_count": 16,
+      "selected_count": 3,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 16,
+      "cache_bust": true
+    },
+    {
+      "name": "edge2-hk",
+      "status": "mainland-proven",
+      "enabled": true,
+      "scheduled": true,
+      "country": "HK",
+      "region_label": "香港",
+      "tags": [
+        "HK",
+        "香港",
+        "Hong Kong"
+      ],
+      "note": "",
+      "candidate_count": 16,
+      "selected_count": 7,
+      "fetch_error_count": 0,
+      "repeat": 1,
+      "limit": 16,
       "cache_bust": true
     }
   ]
