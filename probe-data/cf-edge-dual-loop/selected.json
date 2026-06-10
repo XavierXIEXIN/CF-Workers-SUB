@@ -1,7 +1,47 @@
 [
   {
+    "name": "oci2-reality-001|SG|新加坡|Singapore|REALITY|VPS|oci2-SG|SG|新加坡|Singapore|REALITY|VPS",
+    "source": "oci2-reality",
+    "protocol": "vless-reality",
+    "stability_rank": 0,
+    "country": "",
+    "expected_country": "SG",
+    "observed_country_by_probe": {},
+    "observed_ip_by_probe": {},
+    "observed_org_by_probe": {},
+    "observed_country_match_by_probe": {
+      "local": false,
+      "winbox": false
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "REALITY",
+      "VPS"
+    ],
+    "line": "vless://6a23f2ef-07a4-4541-9560-936cf1e6073b@161.118.247.68:8443?encryption=none&flow=xtls-rprx-vision&security=reality&sni=www.microsoft.com&fp=chrome&pbk=lc-UtiHJpguxs339AoDCm1FbLaP6DbtXc-9LdPNjJQA&sid=48c2f011&type=tcp#oci2-reality-001%7CREALITY%7CVPS",
+    "probe_speeds_bps": {
+      "local": 184503.0,
+      "winbox": 40831.0
+    },
+    "probe_check_s": {
+      "local": 0.758327,
+      "winbox": 1.760782
+    },
+    "priority_probe": "winbox",
+    "priority_speed_bps": 40831.0,
+    "mainland_best_speed_bps": 40831.0,
+    "mainland_min_speed_bps": 40831.0,
+    "min_speed_bps": 40831.0,
+    "avg_speed_bps": 112667.0,
+    "mainland_confirmed_by": [
+      "winbox"
+    ]
+  },
+  {
     "name": "edge3-us-001|US|美国|United States|USA|CF官方优选1",
     "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "US",
     "observed_country_by_probe": {
@@ -49,6 +89,8 @@
   {
     "name": "edge2-jp-002|JP|日本|Japan|CF官方优选2",
     "source": "edge2-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "AE",
     "expected_country": "JP",
     "observed_country_by_probe": {
@@ -93,6 +135,8 @@
   {
     "name": "edge2-us-003|US|美国|United States|USA|CF官方优选3",
     "source": "edge2-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "US",
     "observed_country_by_probe": {
@@ -140,6 +184,8 @@
   {
     "name": "edge3-003|SG|新加坡|Singapore|CF官方优选3",
     "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "GB",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -186,6 +232,8 @@
   {
     "name": "edge3-us-004|US|美国|United States|USA|CF官方优选4",
     "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "US",
     "observed_country_by_probe": {
@@ -233,6 +281,8 @@
   {
     "name": "edge3-012|SG|新加坡|Singapore|CF官方优选12",
     "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "GB",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -279,6 +329,8 @@
   {
     "name": "edge2-006|SG|新加坡|Singapore|CF官方优选6",
     "source": "edge2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "SG",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -332,6 +384,8 @@
   {
     "name": "reedge-005|CF官方优选",
     "source": "reedge",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "",
     "observed_country_by_probe": {
@@ -379,6 +433,8 @@
   {
     "name": "reedge-003|CF官方优选",
     "source": "reedge",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "",
     "observed_country_by_probe": {
@@ -426,6 +482,8 @@
   {
     "name": "edge2-jp-005|JP|日本|Japan|CF官方优选5",
     "source": "edge2-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "JP",
     "expected_country": "JP",
     "observed_country_by_probe": {
@@ -479,6 +537,8 @@
   {
     "name": "edge2-jp-007|JP|日本|Japan|CF官方优选7",
     "source": "edge2-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "JP",
     "expected_country": "JP",
     "observed_country_by_probe": {
@@ -525,6 +585,8 @@
   {
     "name": "reedge-001|CF官方优选",
     "source": "reedge",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "",
     "observed_country_by_probe": {
@@ -572,6 +634,8 @@
   {
     "name": "edge2-005|SG|新加坡|Singapore|CF官方优选5",
     "source": "edge2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "SG",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -625,6 +689,8 @@
   {
     "name": "reedge-002|CF官方优选",
     "source": "reedge",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "",
     "observed_country_by_probe": {
@@ -679,6 +745,8 @@
   {
     "name": "edge2-hk-009|HK|香港|Hong Kong|CF官方优选9",
     "source": "edge2-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "HK",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -732,6 +800,8 @@
   {
     "name": "edge3-us-009|US|美国|United States|USA|CF官方优选9",
     "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "US",
     "observed_country_by_probe": {
@@ -779,6 +849,8 @@
   {
     "name": "edge2-008|SG|新加坡|Singapore|CF官方优选8",
     "source": "edge2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -826,6 +898,8 @@
   {
     "name": "edge3-jp-001|JP|日本|Japan|CF官方优选1",
     "source": "edge3-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "JP",
     "expected_country": "JP",
     "observed_country_by_probe": {
@@ -872,6 +946,8 @@
   {
     "name": "edt2-007|SG|新加坡|Singapore|CF官方优选7",
     "source": "edt2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "GB",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -918,6 +994,8 @@
   {
     "name": "edt2-004|SG|新加坡|Singapore|CF官方优选4",
     "source": "edt2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "GB",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -964,6 +1042,8 @@
   {
     "name": "edge2-hk-006|HK|香港|Hong Kong|CF官方优选6",
     "source": "edge2-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "HK",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -1017,6 +1097,8 @@
   {
     "name": "edge2-hk-007|HK|香港|Hong Kong|CF官方优选7",
     "source": "edge2-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "MD",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -1068,6 +1150,8 @@
   {
     "name": "edge2-001|SG|新加坡|Singapore|CF官方优选1",
     "source": "edge2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "GB",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -1114,6 +1198,8 @@
   {
     "name": "edge2-hk-008|HK|香港|Hong Kong|CF官方优选8",
     "source": "edge2-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "HK",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -1160,6 +1246,8 @@
   {
     "name": "edge2-us-008|US|美国|United States|USA|CF官方优选8",
     "source": "edge2-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "US",
     "observed_country_by_probe": {
@@ -1207,6 +1295,8 @@
   {
     "name": "edge2-jp-009|JP|日本|Japan|CF官方优选9",
     "source": "edge2-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "JP",
     "expected_country": "JP",
     "observed_country_by_probe": {
@@ -1260,6 +1350,8 @@
   {
     "name": "reedge-007|CF官方优选",
     "source": "reedge",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "",
     "observed_country_by_probe": {
@@ -1314,6 +1406,8 @@
   {
     "name": "reedge-006|CF官方优选",
     "source": "reedge",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "US",
     "expected_country": "",
     "observed_country_by_probe": {
@@ -1361,6 +1455,8 @@
   {
     "name": "edt2-003|SG|新加坡|Singapore|CF官方优选3",
     "source": "edt2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "DE",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -1412,54 +1508,10 @@
     ]
   },
   {
-    "name": "edge2-jp-004|JP|日本|Japan|CF官方优选4",
-    "source": "edge2-jp",
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "winbox": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "172.235.211.171",
-      "winbox": "172.235.211.171"
-    },
-    "observed_org_by_probe": {
-      "local": "Akamai Connected Cloud",
-      "winbox": "Akamai Connected Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "winbox": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@172.67.76.241:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge2-jp-004%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 597239.0,
-      "winbox": 414367.0
-    },
-    "probe_check_s": {
-      "local": 0.07013,
-      "winbox": 1.404438
-    },
-    "priority_probe": "winbox",
-    "priority_speed_bps": 414367.0,
-    "mainland_best_speed_bps": 414367.0,
-    "mainland_min_speed_bps": 414367.0,
-    "min_speed_bps": 414367.0,
-    "avg_speed_bps": 505803.0,
-    "mainland_confirmed_by": [
-      "winbox"
-    ]
-  },
-  {
     "name": "edge2-hk-010|HK|香港|Hong Kong|CF官方优选10",
     "source": "edge2-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "HK",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -1506,6 +1558,8 @@
   {
     "name": "edt2-006|SG|新加坡|Singapore|CF官方优选6",
     "source": "edt2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "DE",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -1559,6 +1613,8 @@
   {
     "name": "edge3-jp-002|JP|日本|Japan|CF官方优选2",
     "source": "edge3-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "AE",
     "expected_country": "JP",
     "observed_country_by_probe": {
@@ -1603,6 +1659,8 @@
   {
     "name": "edge3-006|SG|新加坡|Singapore|CF官方优选6",
     "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "DE",
     "expected_country": "SG",
     "observed_country_by_probe": {
@@ -1649,6 +1707,8 @@
   {
     "name": "edge2-jp-006|JP|日本|Japan|CF官方优选6",
     "source": "edge2-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "AE",
     "expected_country": "JP",
     "observed_country_by_probe": {
@@ -1693,6 +1753,8 @@
   {
     "name": "edge3-hk-007|HK|香港|Hong Kong|CF官方优选7",
     "source": "edge3-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "SC",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -1739,6 +1801,8 @@
   {
     "name": "edge3-hk-009|HK|香港|Hong Kong|CF官方优选9",
     "source": "edge3-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "SC",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -1792,6 +1856,8 @@
   {
     "name": "edge3-hk-002|HK|香港|Hong Kong|CF官方优选2",
     "source": "edge3-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "SC",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -1845,6 +1911,8 @@
   {
     "name": "edge3-hk-004|HK|香港|Hong Kong|CF官方优选4",
     "source": "edge3-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "SC",
     "expected_country": "HK",
     "observed_country_by_probe": {
@@ -1898,6 +1966,8 @@
   {
     "name": "edge3-011|SG|新加坡|Singapore|CF官方优选11",
     "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
     "country": "DE",
     "expected_country": "SG",
     "observed_country_by_probe": {
