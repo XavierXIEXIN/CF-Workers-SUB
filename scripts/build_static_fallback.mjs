@@ -271,29 +271,13 @@ function buildCountryGroups(names) {
     .filter((group) => group.proxies.length > 0);
 }
 
-const stablePattern = /(REALITY|VPS|Hysteria|HY2|oci2|xray|arthur|safe|Shadowsocks|\bSS\b)/i;
-const anyTlsPattern = /(AnyTLS|anytls|香港\|0|新加坡\|0|日本\|0|台湾\|0|台灣\|0)/i;
-const cdnPattern = /(edge2|edge3|edt2|reedge|CF官方优选|CF电信优选)/i;
-
-function matchingNames(names, pattern) {
-  return names.filter((name) => pattern.test(name));
-}
-
-function fallbackNames(primary, fallback) {
-  return primary.length ? primary : fallback;
-}
-
 function buildClash(proxies) {
   const names = proxies.map((proxy) => proxy.name);
-  const directNames = matchingNames(names, stablePattern);
-  const anyTlsNames = matchingNames(names, anyTlsPattern);
-  const stableNames = [...new Set([...directNames, ...anyTlsNames])];
-  const cdnNames = matchingNames(names, cdnPattern);
   const matchedCountryGroups = buildCountryGroups(names);
   const countryGroupNames = matchedCountryGroups.map((group) => group.name);
   const countrySelector = countryGroupNames.length
-    ? [...countryGroupNames, "🏠 稳定优先", "♻️ 自动选择"]
-    : ["🏠 稳定优先", "♻️ 自动选择", "☑️ 手动切换"];
+    ? [...countryGroupNames, "♻️ 自动选择", "☑️ 手动切换"]
+    : ["♻️ 自动选择", "☑️ 手动切换"];
   const lines = [
     "mixed-port: 7890",
     "allow-lan: false",
@@ -310,16 +294,11 @@ function buildClash(proxies) {
   }
 
   const groups = [
-    { name: "🚀 节点选择", type: "select", proxies: ["🏠 稳定优先", "🌍 国家地区", "☑️ 手动切换", "♻️ 自动选择", "☁️ CDN兜底", "🏎️ 全量测速", "DIRECT"] },
+    { name: "🚀 节点选择", type: "select", proxies: ["♻️ 自动选择", "☑️ 手动切换", "🌍 国家地区", "DIRECT"] },
     { name: "🌍 国家地区", type: "select", proxies: countrySelector },
     ...matchedCountryGroups,
-    { name: "🏠 稳定优先", type: "fallback", url: "http://www.gstatic.com/generate_204", interval: 1800, proxies: ["🚀 直连VPS", "🟡 AnyTLS备用", "☁️ CDN兜底"] },
-    { name: "🚀 直连VPS", type: "url-test", url: "http://www.gstatic.com/generate_204", interval: 1800, tolerance: 50, proxies: fallbackNames(directNames, names) },
-    { name: "🟡 AnyTLS备用", type: "url-test", url: "http://www.gstatic.com/generate_204", interval: 1800, tolerance: 50, proxies: fallbackNames(anyTlsNames, names) },
-    { name: "☁️ CDN兜底", type: "fallback", url: "http://www.gstatic.com/generate_204", interval: 1800, proxies: fallbackNames(cdnNames, names) },
+    { name: "♻️ 自动选择", type: "url-test", url: "http://www.gstatic.com/generate_204", interval: 1800, tolerance: 50, proxies: names },
     { name: "☑️ 手动切换", type: "select", proxies: names },
-    { name: "♻️ 自动选择", type: "url-test", url: "http://www.gstatic.com/generate_204", interval: 1800, tolerance: 50, proxies: fallbackNames(stableNames, names) },
-    { name: "🏎️ 全量测速", type: "url-test", url: "http://www.gstatic.com/generate_204", interval: 1800, tolerance: 50, proxies: names },
   ];
 
   lines.push("", "proxy-groups:");
