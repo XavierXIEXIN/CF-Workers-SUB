@@ -2,37 +2,37 @@
   "probe_count": 3,
   "configured_priority_probe": "winbox",
   "alive_fast_by_probe": {
-    "winbox": 102,
-    "zhongb-tail": 40,
-    "local": 106
+    "winbox": 0,
+    "zhongb-tail": 48,
+    "local": 107
   },
   "mainland_probes": [
     "winbox",
     "zhongb-tail"
   ],
-  "excluded_zero_yield_probes": [],
-  "effective_probe_count": 3,
-  "priority_probe": "winbox",
+  "excluded_zero_yield_probes": [
+    "winbox"
+  ],
+  "effective_probe_count": 2,
+  "priority_probe": "zhongb-tail",
   "mainland_confirmed": true,
   "mainland_confirming_probes": [
-    "winbox",
     "zhongb-tail"
   ],
   "gate": "ok",
-  "shared_candidates": 101,
+  "shared_candidates": 48,
   "selected": 40,
   "selected_by_country": {
-    "HK": 9,
-    "US": 10,
-    "SG": 6,
-    "JP": 11,
-    "RS": 3,
-    "DE": 1
+    "HK": 8,
+    "US": 8,
+    "SG": 8,
+    "JP": 5,
+    "RS": 11
   },
   "country_min_per_group": 4,
-  "priority_top_speed_bps": 512255.0,
-  "top_min_speed_bps": 81740.0,
-  "top_avg_speed_bps": 408633.6666666667,
-  "median_min_speed_bps": 65439.0,
-  "min_of_selected_bps": 306397.0
+  "priority_top_speed_bps": 198644.0,
+  "top_min_speed_bps": 198644.0,
+  "top_avg_speed_bps": 423056.0,
+  "median_min_speed_bps": 81741.0,
+  "min_of_selected_bps": 59926.0
 }
