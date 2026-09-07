@@ -1,150 +1,5 @@
 [
   {
-    "name": "edge3-us-005|US|美国|United States|USA|CF官方优选5",
-    "source": "edge3-us",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "zhongb-tail": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "64.227.109.151",
-      "zhongb-tail": "149.28.56.202"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "zhongb-tail": "Vultr"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.223.143:2053?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-005%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 567223.0,
-      "zhongb-tail": 439582.0
-    },
-    "probe_check_s": {
-      "local": 0.4907,
-      "zhongb-tail": 1.492747
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 439582.0,
-    "mainland_best_speed_bps": 439582.0,
-    "mainland_min_speed_bps": 439582.0,
-    "min_speed_bps": 439582.0,
-    "avg_speed_bps": 503402.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-002|SG|新加坡|Singapore|CF官方优选2",
-    "source": "edge3",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "128.199.255.242",
-      "zhongb-tail": "141.11.43.124"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "zhongb-tail": "Streamline Servers"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.16.247.33:2083?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-002%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 577352.0,
-      "zhongb-tail": 422353.0
-    },
-    "probe_check_s": {
-      "local": 0.254594,
-      "zhongb-tail": 0.883393
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 422353.0,
-    "mainland_best_speed_bps": 422353.0,
-    "mainland_min_speed_bps": 422353.0,
-    "min_speed_bps": 422353.0,
-    "avg_speed_bps": 499852.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-003|SG|新加坡|Singapore|CF官方优选3",
-    "source": "edge3",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "138.2.64.229",
-      "zhongb-tail": "141.11.43.124"
-    },
-    "observed_org_by_probe": {
-      "local": "Oracle Cloud",
-      "zhongb-tail": "Streamline Servers"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.19.51.102:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-003%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 575833.0,
-      "zhongb-tail": 406048.0
-    },
-    "probe_check_s": {
-      "local": 0.424681,
-      "zhongb-tail": 0.987334
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 406048.0,
-    "mainland_best_speed_bps": 406048.0,
-    "mainland_min_speed_bps": 406048.0,
-    "min_speed_bps": 406048.0,
-    "avg_speed_bps": 490940.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
     "name": "edge2-010|SG|新加坡|Singapore|CF官方优选10",
     "source": "edge2",
     "protocol": "vless-ws-cdn",
@@ -152,447 +7,16 @@
     "country": "SG",
     "expected_country": "SG",
     "observed_country_by_probe": {
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "zhongb-tail": "178.93.160.236"
-    },
-    "observed_org_by_probe": {
-      "zhongb-tail": "FDCservers.net"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@8.39.125.41:8443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-010%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 566370.0,
-      "zhongb-tail": 391021.0
-    },
-    "probe_check_s": {
-      "local": 0.413053,
-      "zhongb-tail": 0.884853
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 391021.0,
-    "mainland_best_speed_bps": 391021.0,
-    "mainland_min_speed_bps": 391021.0,
-    "min_speed_bps": 391021.0,
-    "avg_speed_bps": 478695.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "reedge-001|CF官方优选",
-    "source": "reedge",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "US",
-    "expected_country": "",
-    "observed_country_by_probe": {
-      "local": "US",
-      "zhongb-tail": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "104.168.76.144",
-      "zhongb-tail": "107.174.131.32"
-    },
-    "observed_org_by_probe": {
-      "local": "HostPapa",
-      "zhongb-tail": "HostPapa"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": false
-    },
-    "region_label": "",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.170.200:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-001%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 572504.0,
-      "zhongb-tail": 390915.0
-    },
-    "probe_check_s": {
-      "local": 1.042752,
-      "zhongb-tail": 0.887509
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 390915.0,
-    "mainland_best_speed_bps": 390915.0,
-    "mainland_min_speed_bps": 390915.0,
-    "min_speed_bps": 390915.0,
-    "avg_speed_bps": 481709.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-jp-006|JP|日本|Japan|CF官方优选6",
-    "source": "edge2-jp",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "zhongb-tail": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "54.248.227.16",
-      "zhongb-tail": "141.147.162.33"
-    },
-    "observed_org_by_probe": {
-      "local": "Amazon.com",
-      "zhongb-tail": "Oracle Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.29.36:8443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge2-jp-006%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 571292.0,
-      "zhongb-tail": 390814.0
-    },
-    "probe_check_s": {
-      "local": 0.24346,
-      "zhongb-tail": 1.085522
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 390814.0,
-    "mainland_best_speed_bps": 390814.0,
-    "mainland_min_speed_bps": 390814.0,
-    "min_speed_bps": 390814.0,
-    "avg_speed_bps": 481053.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-hk-010|HK|香港|Hong Kong|CF官方优选10",
-    "source": "edge3-hk",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "zhongb-tail": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "154.84.154.37",
-      "zhongb-tail": "103.101.0.73"
-    },
-    "observed_org_by_probe": {
-      "local": "Datagear LLP",
-      "zhongb-tail": "Netrouting"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.105.48:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge3-hk-010%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 564848.0,
-      "zhongb-tail": 390154.0
-    },
-    "probe_check_s": {
-      "local": 0.416723,
-      "zhongb-tail": 0.781582
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 390154.0,
-    "mainland_best_speed_bps": 390154.0,
-    "mainland_min_speed_bps": 390154.0,
-    "min_speed_bps": 390154.0,
-    "avg_speed_bps": 477501.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-013|SG|新加坡|Singapore|CF官方优选13",
-    "source": "edge3",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
       "local": "SG",
       "zhongb-tail": "SG"
     },
     "observed_ip_by_probe": {
-      "local": "138.2.76.34",
-      "zhongb-tail": "149.28.153.207"
-    },
-    "observed_org_by_probe": {
-      "local": "Oracle Cloud",
-      "zhongb-tail": "Vultr"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.26.12.218:2087?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-013%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 568524.0,
-      "zhongb-tail": 389898.0
-    },
-    "probe_check_s": {
-      "local": 0.259384,
-      "zhongb-tail": 0.981925
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 389898.0,
-    "mainland_best_speed_bps": 389898.0,
-    "mainland_min_speed_bps": 389898.0,
-    "min_speed_bps": 389898.0,
-    "avg_speed_bps": 479211.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-hk-004|HK|香港|Hong Kong|CF官方优选4",
-    "source": "edge2-hk",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "zhongb-tail": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "103.219.193.95",
-      "zhongb-tail": "219.76.13.177"
-    },
-    "observed_org_by_probe": {
-      "local": "Bage Cloud",
-      "zhongb-tail": "Netvigator"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.16.254.91:8443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-004%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 550559.0,
-      "zhongb-tail": 389488.0
-    },
-    "probe_check_s": {
-      "local": 2.05185,
-      "zhongb-tail": 1.275121
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 389488.0,
-    "mainland_best_speed_bps": 389488.0,
-    "mainland_min_speed_bps": 389488.0,
-    "min_speed_bps": 389488.0,
-    "avg_speed_bps": 470023.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-hk-008|HK|香港|Hong Kong|CF官方优选8",
-    "source": "edge3-hk",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "43.168.146.240",
-      "zhongb-tail": "154.84.154.37"
-    },
-    "observed_org_by_probe": {
-      "local": "ACE CDN",
-      "zhongb-tail": "Datagear LLP"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.19.96:8443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge3-hk-008%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 575434.0,
-      "zhongb-tail": 377024.0
-    },
-    "probe_check_s": {
-      "local": 0.311986,
-      "zhongb-tail": 0.787166
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 377024.0,
-    "mainland_best_speed_bps": 377024.0,
-    "mainland_min_speed_bps": 377024.0,
-    "min_speed_bps": 377024.0,
-    "avg_speed_bps": 476229.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-jp-002|JP|日本|Japan|CF官方优选2",
-    "source": "edge3-jp",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "zhongb-tail": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "8.221.169.110",
-      "zhongb-tail": "8.221.173.54"
-    },
-    "observed_org_by_probe": {
-      "local": "Alibaba",
-      "zhongb-tail": "Alibaba"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.26.6.8:8443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge3-jp-002%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 549018.0,
-      "zhongb-tail": 376764.0
-    },
-    "probe_check_s": {
-      "local": 0.309066,
-      "zhongb-tail": 1.283259
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 376764.0,
-    "mainland_best_speed_bps": 376764.0,
-    "mainland_min_speed_bps": 376764.0,
-    "min_speed_bps": 376764.0,
-    "avg_speed_bps": 462891.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-us-010|US|美国|United States|USA|CF官方优选10",
-    "source": "edge2-us",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "SC",
-      "zhongb-tail": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "45.203.217.25",
-      "zhongb-tail": "191.222.247.124"
-    },
-    "observed_org_by_probe": {
-      "local": "Turing Group",
-      "zhongb-tail": "FDCservers.net"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.170.149:2053?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge2-us-010%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 550279.0,
-      "zhongb-tail": 376344.0
-    },
-    "probe_check_s": {
-      "local": 1.235092,
-      "zhongb-tail": 1.201554
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 376344.0,
-    "mainland_best_speed_bps": 376344.0,
-    "mainland_min_speed_bps": 376344.0,
-    "min_speed_bps": 376344.0,
-    "avg_speed_bps": 463311.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-007|SG|新加坡|Singapore|CF官方优选7",
-    "source": "edge3",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "128.199.255.242",
-      "zhongb-tail": "82.47.245.2"
+      "local": "165.22.110.8",
+      "zhongb-tail": "165.22.110.8"
     },
     "observed_org_by_probe": {
       "local": "Digital Ocean",
-      "zhongb-tail": "FDCservers.net"
+      "zhongb-tail": "Digital Ocean"
     },
     "observed_country_match_by_probe": {
       "local": true,
@@ -604,262 +28,21 @@
       "Singapore",
       "新加坡"
     ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.19.33.44:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-007%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@172.67.72.146:2053?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-010%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
     "probe_speeds_bps": {
-      "local": 581656.0,
-      "zhongb-tail": 365574.0
+      "local": 568870.0,
+      "zhongb-tail": 479632.0
     },
     "probe_check_s": {
-      "local": 2.211211,
-      "zhongb-tail": 0.896184
+      "local": 0.387286,
+      "zhongb-tail": 0.96347
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 365574.0,
-    "mainland_best_speed_bps": 365574.0,
-    "mainland_min_speed_bps": 365574.0,
-    "min_speed_bps": 365574.0,
-    "avg_speed_bps": 473615.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-us-002|US|美国|United States|USA|CF官方优选2",
-    "source": "edge2-us",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "zhongb-tail": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "38.180.6.148",
-      "zhongb-tail": "107.150.0.204"
-    },
-    "observed_org_by_probe": {
-      "local": "M247 Europe",
-      "zhongb-tail": "HostPapa"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "美国",
-    "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.50.26:2083?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge2-us-002%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
-    "probe_speeds_bps": {
-      "local": 573444.0,
-      "zhongb-tail": 364904.0
-    },
-    "probe_check_s": {
-      "local": 0.279663,
-      "zhongb-tail": 0.986265
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 364904.0,
-    "mainland_best_speed_bps": 364904.0,
-    "mainland_min_speed_bps": 364904.0,
-    "min_speed_bps": 364904.0,
-    "avg_speed_bps": 469174.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-jp-008|JP|日本|Japan|CF官方优选8",
-    "source": "edge3-jp",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "zhongb-tail": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "103.27.186.39",
-      "zhongb-tail": "138.2.21.53"
-    },
-    "observed_org_by_probe": {
-      "local": "Starry",
-      "zhongb-tail": "Oracle Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.19.51.245:2087?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge3-jp-008%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 573197.0,
-      "zhongb-tail": 363983.0
-    },
-    "probe_check_s": {
-      "local": 0.552269,
-      "zhongb-tail": 1.488605
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 363983.0,
-    "mainland_best_speed_bps": 363983.0,
-    "mainland_min_speed_bps": 363983.0,
-    "min_speed_bps": 363983.0,
-    "avg_speed_bps": 468590.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-jp-007|JP|日本|Japan|CF官方优选7",
-    "source": "edge2-jp",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "43.175.17.196",
-      "zhongb-tail": "54.248.227.16"
-    },
-    "observed_org_by_probe": {
-      "local": "ACE CDN",
-      "zhongb-tail": "Amazon.com"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.16.246.239:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge2-jp-007%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 572495.0,
-      "zhongb-tail": 351552.0
-    },
-    "probe_check_s": {
-      "local": 0.513159,
-      "zhongb-tail": 0.794592
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 351552.0,
-    "mainland_best_speed_bps": 351552.0,
-    "mainland_min_speed_bps": 351552.0,
-    "min_speed_bps": 351552.0,
-    "avg_speed_bps": 462023.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-001|SG|新加坡|Singapore|CF官方优选1",
-    "source": "edge2",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "43.134.62.218",
-      "zhongb-tail": "85.149.211.122"
-    },
-    "observed_org_by_probe": {
-      "local": "Tencent cloud computing",
-      "zhongb-tail": "Bage Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@91.193.59.1:2083?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-001%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 546703.0,
-      "zhongb-tail": 341924.0
-    },
-    "probe_check_s": {
-      "local": 0.448995,
-      "zhongb-tail": 0.884585
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 341924.0,
-    "mainland_best_speed_bps": 341924.0,
-    "mainland_min_speed_bps": 341924.0,
-    "min_speed_bps": 341924.0,
-    "avg_speed_bps": 444313.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-006|SG|新加坡|Singapore|CF官方优选6",
-    "source": "edge3",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "167.71.195.238",
-      "zhongb-tail": "141.11.43.124"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "zhongb-tail": "Streamline Servers"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.210.225:443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-006%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 585813.0,
-      "zhongb-tail": 340157.0
-    },
-    "probe_check_s": {
-      "local": 0.245896,
-      "zhongb-tail": 1.076759
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 340157.0,
-    "mainland_best_speed_bps": 340157.0,
-    "mainland_min_speed_bps": 340157.0,
-    "min_speed_bps": 340157.0,
-    "avg_speed_bps": 462985.0,
+    "priority_speed_bps": 479632.0,
+    "mainland_best_speed_bps": 479632.0,
+    "mainland_min_speed_bps": 479632.0,
+    "min_speed_bps": 479632.0,
+    "avg_speed_bps": 524251.0,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
@@ -876,12 +59,12 @@
       "zhongb-tail": "HK"
     },
     "observed_ip_by_probe": {
-      "local": "103.101.0.73",
-      "zhongb-tail": "47.79.78.40"
+      "local": "185.206.171.53",
+      "zhongb-tail": "185.206.171.53"
     },
     "observed_org_by_probe": {
-      "local": "Netrouting",
-      "zhongb-tail": "Alibaba"
+      "local": "YottaSrc",
+      "zhongb-tail": "YottaSrc"
     },
     "observed_country_match_by_probe": {
       "local": true,
@@ -893,27 +76,27 @@
       "Hong Kong",
       "香港"
     ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.147.14:8443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-003%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.23.38:443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-003%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
     "probe_speeds_bps": {
-      "local": 542679.0,
-      "zhongb-tail": 339521.0
+      "local": 581482.0,
+      "zhongb-tail": 477275.0
     },
     "probe_check_s": {
-      "local": 0.303424,
-      "zhongb-tail": 1.183789
+      "local": 0.241642,
+      "zhongb-tail": 0.692094
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 339521.0,
-    "mainland_best_speed_bps": 339521.0,
-    "mainland_min_speed_bps": 339521.0,
-    "min_speed_bps": 339521.0,
-    "avg_speed_bps": 441100.0,
+    "priority_speed_bps": 477275.0,
+    "mainland_best_speed_bps": 477275.0,
+    "mainland_min_speed_bps": 477275.0,
+    "min_speed_bps": 477275.0,
+    "avg_speed_bps": 529378.5,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
   },
   {
-    "name": "edge2-hk-001|HK|香港|Hong Kong|CF官方优选1",
+    "name": "edge2-hk-002|HK|香港|Hong Kong|CF官方优选2",
     "source": "edge2-hk",
     "protocol": "vless-ws-cdn",
     "stability_rank": 90,
@@ -924,12 +107,12 @@
       "zhongb-tail": "HK"
     },
     "observed_ip_by_probe": {
-      "local": "47.79.78.40",
-      "zhongb-tail": "47.239.4.246"
+      "local": "8.210.29.68",
+      "zhongb-tail": "185.206.171.53"
     },
     "observed_org_by_probe": {
       "local": "Alibaba",
-      "zhongb-tail": "Alibaba"
+      "zhongb-tail": "YottaSrc"
     },
     "observed_country_match_by_probe": {
       "local": true,
@@ -941,117 +124,21 @@
       "Hong Kong",
       "香港"
     ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@8.35.211.233:8443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-001%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@188.164.248.88:2083?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-002%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
     "probe_speeds_bps": {
-      "local": 541896.0,
-      "zhongb-tail": 329808.0
+      "local": 581909.0,
+      "zhongb-tail": 460607.0
     },
     "probe_check_s": {
-      "local": 0.407117,
-      "zhongb-tail": 1.160952
+      "local": 0.365449,
+      "zhongb-tail": 0.588228
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 329808.0,
-    "mainland_best_speed_bps": 329808.0,
-    "mainland_min_speed_bps": 329808.0,
-    "min_speed_bps": 329808.0,
-    "avg_speed_bps": 435852.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-009|SG|新加坡|Singapore|CF官方优选9",
-    "source": "edge2",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "150.109.11.223",
-      "zhongb-tail": "103.253.145.105"
-    },
-    "observed_org_by_probe": {
-      "local": "Tencent cloud computing",
-      "zhongb-tail": "Digital Ocean"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@172.66.0.242:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-009%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 541778.0,
-      "zhongb-tail": 329655.0
-    },
-    "probe_check_s": {
-      "local": 0.415837,
-      "zhongb-tail": 1.19189
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 329655.0,
-    "mainland_best_speed_bps": 329655.0,
-    "mainland_min_speed_bps": 329655.0,
-    "min_speed_bps": 329655.0,
-    "avg_speed_bps": 435716.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-hk-002|HK|香港|Hong Kong|CF官方优选2",
-    "source": "edge3-hk",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "HK",
-    "expected_country": "HK",
-    "observed_country_by_probe": {
-      "local": "HK",
-      "zhongb-tail": "HK"
-    },
-    "observed_ip_by_probe": {
-      "local": "156.241.191.236",
-      "zhongb-tail": "45.202.248.172"
-    },
-    "observed_org_by_probe": {
-      "local": "Arosscloud",
-      "zhongb-tail": "Akile"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "香港",
-    "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.150.193:443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge3-hk-002%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
-    "probe_speeds_bps": {
-      "local": 558390.0,
-      "zhongb-tail": 329426.0
-    },
-    "probe_check_s": {
-      "local": 0.289993,
-      "zhongb-tail": 1.196169
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 329426.0,
-    "mainland_best_speed_bps": 329426.0,
-    "mainland_min_speed_bps": 329426.0,
-    "min_speed_bps": 329426.0,
-    "avg_speed_bps": 443908.0,
+    "priority_speed_bps": 460607.0,
+    "mainland_best_speed_bps": 460607.0,
+    "mainland_min_speed_bps": 460607.0,
+    "min_speed_bps": 460607.0,
+    "avg_speed_bps": 521258.0,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
@@ -1068,12 +155,12 @@
       "zhongb-tail": "SG"
     },
     "observed_ip_by_probe": {
-      "local": "168.138.189.91",
-      "zhongb-tail": "141.11.43.124"
+      "local": "152.175.67.191",
+      "zhongb-tail": "82.109.96.42"
     },
     "observed_org_by_probe": {
-      "local": "Oracle Cloud",
-      "zhongb-tail": "Streamline Servers"
+      "local": "Sakura Link",
+      "zhongb-tail": "Datawave Global"
     },
     "observed_country_match_by_probe": {
       "local": true,
@@ -1085,502 +172,75 @@
       "Singapore",
       "新加坡"
     ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.16.159.243:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-012%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@8.39.125.105:2053?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-012%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
     "probe_speeds_bps": {
-      "local": 573584.0,
-      "zhongb-tail": 329096.0
+      "local": 581035.0,
+      "zhongb-tail": 440398.0
     },
     "probe_check_s": {
-      "local": 0.268831,
-      "zhongb-tail": 0.792441
+      "local": 0.435539,
+      "zhongb-tail": 0.981929
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 329096.0,
-    "mainland_best_speed_bps": 329096.0,
-    "mainland_min_speed_bps": 329096.0,
-    "min_speed_bps": 329096.0,
-    "avg_speed_bps": 451340.0,
+    "priority_speed_bps": 440398.0,
+    "mainland_best_speed_bps": 440398.0,
+    "mainland_min_speed_bps": 440398.0,
+    "min_speed_bps": 440398.0,
+    "avg_speed_bps": 510716.5,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
   },
   {
-    "name": "edge2-011|SG|新加坡|Singapore|CF官方优选11",
-    "source": "edge2",
+    "name": "edge2-hk-004|HK|香港|Hong Kong|CF官方优选4",
+    "source": "edge2-hk",
     "protocol": "vless-ws-cdn",
     "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
+    "country": "HK",
+    "expected_country": "HK",
     "observed_country_by_probe": {
-      "zhongb-tail": "SG"
+      "local": "HK",
+      "zhongb-tail": "HK"
     },
     "observed_ip_by_probe": {
-      "zhongb-tail": "85.149.211.122"
+      "local": "185.206.171.53",
+      "zhongb-tail": "185.206.171.53"
     },
     "observed_org_by_probe": {
-      "zhongb-tail": "Bage Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.215.226:443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-011%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 544385.0,
-      "zhongb-tail": 328919.0
-    },
-    "probe_check_s": {
-      "local": 0.394477,
-      "zhongb-tail": 1.385166
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 328919.0,
-    "mainland_best_speed_bps": 328919.0,
-    "mainland_min_speed_bps": 328919.0,
-    "min_speed_bps": 328919.0,
-    "avg_speed_bps": 436652.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-us-003|US|美国|United States|USA|CF官方优选3",
-    "source": "edge3-us",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "US",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "US",
-      "zhongb-tail": "US"
-    },
-    "observed_ip_by_probe": {
-      "local": "45.62.115.31",
-      "zhongb-tail": "64.227.109.151"
-    },
-    "observed_org_by_probe": {
-      "local": "IT7 Networks",
-      "zhongb-tail": "Digital Ocean"
+      "local": "YottaSrc",
+      "zhongb-tail": "YottaSrc"
     },
     "observed_country_match_by_probe": {
       "local": true,
       "zhongb-tail": true
     },
-    "region_label": "美国",
+    "region_label": "香港",
     "tags": [
-      "US",
-      "United States",
-      "USA",
-      "美国"
+      "HK",
+      "Hong Kong",
+      "香港"
     ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.19.149.186:8443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-003%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.154.191:2053?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-004%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
     "probe_speeds_bps": {
-      "local": 578604.0,
-      "zhongb-tail": 327869.0
+      "local": 569567.0,
+      "zhongb-tail": 423113.0
     },
     "probe_check_s": {
-      "local": 0.401755,
-      "zhongb-tail": 0.688119
+      "local": 0.224295,
+      "zhongb-tail": 0.681329
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 327869.0,
-    "mainland_best_speed_bps": 327869.0,
-    "mainland_min_speed_bps": 327869.0,
-    "min_speed_bps": 327869.0,
-    "avg_speed_bps": 453236.5,
+    "priority_speed_bps": 423113.0,
+    "mainland_best_speed_bps": 423113.0,
+    "mainland_min_speed_bps": 423113.0,
+    "min_speed_bps": 423113.0,
+    "avg_speed_bps": 496340.0,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
   },
   {
-    "name": "edge2-jp-003|JP|日本|Japan|CF官方优选3",
-    "source": "edge2-jp",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "zhongb-tail": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "160.16.62.225",
-      "zhongb-tail": "141.147.162.33"
-    },
-    "observed_org_by_probe": {
-      "local": "SAKURA Internet",
-      "zhongb-tail": "Oracle Cloud"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.152.37:2053?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge2-jp-003%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 558338.0,
-      "zhongb-tail": 319476.0
-    },
-    "probe_check_s": {
-      "local": 0.479524,
-      "zhongb-tail": 1.188902
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 319476.0,
-    "mainland_best_speed_bps": 319476.0,
-    "mainland_min_speed_bps": 319476.0,
-    "min_speed_bps": 319476.0,
-    "avg_speed_bps": 438907.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-014|SG|新加坡|Singapore|CF官方优选14",
-    "source": "edge3",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "157.245.148.160",
-      "zhongb-tail": "82.47.245.2"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "zhongb-tail": "FDCservers.net"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@91.193.58.44:2087?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-014%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 553059.0,
-      "zhongb-tail": 309616.0
-    },
-    "probe_check_s": {
-      "local": 0.451498,
-      "zhongb-tail": 1.287286
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 309616.0,
-    "mainland_best_speed_bps": 309616.0,
-    "mainland_min_speed_bps": 309616.0,
-    "min_speed_bps": 309616.0,
-    "avg_speed_bps": 431337.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-us-001|US|美国|United States|USA|CF官方优选1",
-    "source": "edge2-us",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SC",
-    "expected_country": "US",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SC"
-    },
-    "observed_ip_by_probe": {
-      "local": "103.135.57.83",
-      "zhongb-tail": "45.203.217.25"
-    },
-    "observed_org_by_probe": {
-      "local": "F5 Networks",
-      "zhongb-tail": "Turing Group"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": false
-    },
-    "region_label": "美国",
-    "tags": [
-      "SC",
-      "Seychelles",
-      "塞舌尔"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@172.67.72.142:2096?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge2-us-001%7CSC%7CSeychelles%7C%E5%A1%9E%E8%88%8C%E5%B0%94",
-    "probe_speeds_bps": {
-      "local": 545265.0,
-      "zhongb-tail": 293055.0
-    },
-    "probe_check_s": {
-      "local": 0.390722,
-      "zhongb-tail": 1.38918
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 293055.0,
-    "mainland_best_speed_bps": 293055.0,
-    "mainland_min_speed_bps": 293055.0,
-    "min_speed_bps": 293055.0,
-    "avg_speed_bps": 419160.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-011|SG|新加坡|Singapore|CF官方优选11",
-    "source": "edge3",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "SG",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "47.236.119.109",
-      "zhongb-tail": "104.28.222.43"
-    },
-    "observed_org_by_probe": {
-      "local": "Alibaba",
-      "zhongb-tail": "Cloudflare Warp"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.55.146:8443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-011%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 565547.0,
-      "zhongb-tail": 292818.0
-    },
-    "probe_check_s": {
-      "local": 0.297448,
-      "zhongb-tail": 0.799951
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 292818.0,
-    "mainland_best_speed_bps": 292818.0,
-    "mainland_min_speed_bps": 292818.0,
-    "min_speed_bps": 292818.0,
-    "avg_speed_bps": 429182.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-jp-001|JP|日本|Japan|CF官方优选1",
-    "source": "edge3-jp",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "zhongb-tail": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "138.2.31.37",
-      "zhongb-tail": "8.221.169.104"
-    },
-    "observed_org_by_probe": {
-      "local": "Oracle Cloud",
-      "zhongb-tail": "Alibaba"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.16.39:2053?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge3-jp-001%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 554866.0,
-      "zhongb-tail": 292780.0
-    },
-    "probe_check_s": {
-      "local": 0.46142,
-      "zhongb-tail": 2.383292
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 292780.0,
-    "mainland_best_speed_bps": 292780.0,
-    "mainland_min_speed_bps": 292780.0,
-    "min_speed_bps": 292780.0,
-    "avg_speed_bps": 423823.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-008|SG|新加坡|Singapore|CF官方优选8",
-    "source": "edge2",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "zhongb-tail": "43.134.62.218"
-    },
-    "observed_org_by_probe": {
-      "zhongb-tail": "Tencent cloud computing"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.18.33.176:2053?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-008%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 552071.0,
-      "zhongb-tail": 292778.0
-    },
-    "probe_check_s": {
-      "local": 0.883597,
-      "zhongb-tail": 1.988697
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 292778.0,
-    "mainland_best_speed_bps": 292778.0,
-    "mainland_min_speed_bps": 292778.0,
-    "min_speed_bps": 292778.0,
-    "avg_speed_bps": 422424.5,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge2-jp-010|JP|日本|Japan|CF官方优选10",
-    "source": "edge2-jp",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "JP",
-    "expected_country": "JP",
-    "observed_country_by_probe": {
-      "local": "JP",
-      "zhongb-tail": "JP"
-    },
-    "observed_ip_by_probe": {
-      "local": "54.248.227.16",
-      "zhongb-tail": "45.153.246.47"
-    },
-    "observed_org_by_probe": {
-      "local": "Amazon.com",
-      "zhongb-tail": "xTom Japan Corporation"
-    },
-    "observed_country_match_by_probe": {
-      "local": true,
-      "zhongb-tail": true
-    },
-    "region_label": "日本",
-    "tags": [
-      "JP",
-      "Japan",
-      "日本"
-    ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.146.255:8443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge2-jp-010%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
-    "probe_speeds_bps": {
-      "local": 561544.0,
-      "zhongb-tail": 284876.0
-    },
-    "probe_check_s": {
-      "local": 0.405221,
-      "zhongb-tail": 2.085742
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 284876.0,
-    "mainland_best_speed_bps": 284876.0,
-    "mainland_min_speed_bps": 284876.0,
-    "min_speed_bps": 284876.0,
-    "avg_speed_bps": 423210.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "edge3-015|SG|新加坡|Singapore|CF官方优选15",
-    "source": "edge3",
-    "protocol": "vless-ws-cdn",
-    "stability_rank": 90,
-    "country": "SG",
-    "expected_country": "SG",
-    "observed_country_by_probe": {
-      "local": "US",
-      "zhongb-tail": "SG"
-    },
-    "observed_ip_by_probe": {
-      "local": "64.227.109.151",
-      "zhongb-tail": "141.11.43.124"
-    },
-    "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "zhongb-tail": "Streamline Servers"
-    },
-    "observed_country_match_by_probe": {
-      "local": false,
-      "zhongb-tail": true
-    },
-    "region_label": "新加坡",
-    "tags": [
-      "SG",
-      "Singapore",
-      "新加坡"
-    ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.62.122:2053?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-015%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
-    "probe_speeds_bps": {
-      "local": 546088.0,
-      "zhongb-tail": 284766.0
-    },
-    "probe_check_s": {
-      "local": 0.252639,
-      "zhongb-tail": 1.583103
-    },
-    "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 284766.0,
-    "mainland_best_speed_bps": 284766.0,
-    "mainland_min_speed_bps": 284766.0,
-    "min_speed_bps": 284766.0,
-    "avg_speed_bps": 415427.0,
-    "mainland_confirmed_by": [
-      "zhongb-tail"
-    ]
-  },
-  {
-    "name": "reedge-002|CF官方优选",
+    "name": "reedge-001|CF官方优选",
     "source": "reedge",
     "protocol": "vless-ws-cdn",
     "stability_rank": 90,
@@ -1609,21 +269,262 @@
       "USA",
       "美国"
     ],
-    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.19.34.155:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-002%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.164.141:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-001%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 546174.0,
-      "zhongb-tail": 276960.0
+      "local": 580485.0,
+      "zhongb-tail": 423077.0
     },
     "probe_check_s": {
-      "local": 0.441734,
-      "zhongb-tail": 1.876352
+      "local": 0.42659,
+      "zhongb-tail": 0.583063
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 276960.0,
-    "mainland_best_speed_bps": 276960.0,
-    "mainland_min_speed_bps": 276960.0,
-    "min_speed_bps": 276960.0,
-    "avg_speed_bps": 411567.0,
+    "priority_speed_bps": 423077.0,
+    "mainland_best_speed_bps": 423077.0,
+    "mainland_min_speed_bps": 423077.0,
+    "min_speed_bps": 423077.0,
+    "avg_speed_bps": 501781.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-hk-005|HK|香港|Hong Kong|CF官方优选5",
+    "source": "edge2-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "HK",
+    "expected_country": "HK",
+    "observed_country_by_probe": {
+      "local": "HK",
+      "zhongb-tail": "HK"
+    },
+    "observed_ip_by_probe": {
+      "local": "8.218.22.14",
+      "zhongb-tail": "185.206.171.53"
+    },
+    "observed_org_by_probe": {
+      "local": "Alibaba",
+      "zhongb-tail": "YottaSrc"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "香港",
+    "tags": [
+      "HK",
+      "Hong Kong",
+      "香港"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@91.193.59.135:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-005%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "probe_speeds_bps": {
+      "local": 570888.0,
+      "zhongb-tail": 422939.0
+    },
+    "probe_check_s": {
+      "local": 0.384913,
+      "zhongb-tail": 0.780854
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 422939.0,
+    "mainland_best_speed_bps": 422939.0,
+    "mainland_min_speed_bps": 422939.0,
+    "min_speed_bps": 422939.0,
+    "avg_speed_bps": 496913.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-jp-007|JP|日本|Japan|CF官方优选7",
+    "source": "edge3-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "JP",
+    "expected_country": "JP",
+    "observed_country_by_probe": {
+      "local": "JP",
+      "zhongb-tail": "JP"
+    },
+    "observed_ip_by_probe": {
+      "local": "8.221.172.7",
+      "zhongb-tail": "8.221.172.7"
+    },
+    "observed_org_by_probe": {
+      "local": "Alibaba",
+      "zhongb-tail": "Alibaba"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "日本",
+    "tags": [
+      "JP",
+      "Japan",
+      "日本"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.19.148.205:443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge3-jp-007%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "probe_speeds_bps": {
+      "local": 569586.0,
+      "zhongb-tail": 422666.0
+    },
+    "probe_check_s": {
+      "local": 0.747457,
+      "zhongb-tail": 0.49247
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 422666.0,
+    "mainland_best_speed_bps": 422666.0,
+    "mainland_min_speed_bps": 422666.0,
+    "min_speed_bps": 422666.0,
+    "avg_speed_bps": 496126.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-us-010|US|美国|United States|USA|CF官方优选10",
+    "source": "edge2-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "38.65.9.104",
+      "zhongb-tail": "154.36.137.155"
+    },
+    "observed_org_by_probe": {
+      "local": "ZMTO Technologies OU",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@91.193.59.138:8443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge2-us-010%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 568266.0,
+      "zhongb-tail": 422287.0
+    },
+    "probe_check_s": {
+      "local": 0.391387,
+      "zhongb-tail": 0.781543
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 422287.0,
+    "mainland_best_speed_bps": 422287.0,
+    "mainland_min_speed_bps": 422287.0,
+    "min_speed_bps": 422287.0,
+    "avg_speed_bps": 495276.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-013|SG|新加坡|Singapore|CF官方优选13",
+    "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "SG",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "SG"
+    },
+    "observed_ip_by_probe": {
+      "local": "61.13.236.181",
+      "zhongb-tail": "124.156.202.172"
+    },
+    "observed_org_by_probe": {
+      "local": "Sptel",
+      "zhongb-tail": "Tencent cloud computing"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "SG",
+      "Singapore",
+      "新加坡"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.16.157.197:2087?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-013%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "probe_speeds_bps": {
+      "local": 585362.0,
+      "zhongb-tail": 421356.0
+    },
+    "probe_check_s": {
+      "local": 0.413864,
+      "zhongb-tail": 0.874292
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 421356.0,
+    "mainland_best_speed_bps": 421356.0,
+    "mainland_min_speed_bps": 421356.0,
+    "min_speed_bps": 421356.0,
+    "avg_speed_bps": 503359.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-014|SG|新加坡|Singapore|CF官方优选14",
+    "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "SG",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "SG"
+    },
+    "observed_ip_by_probe": {
+      "local": "152.175.67.191",
+      "zhongb-tail": "61.13.236.181"
+    },
+    "observed_org_by_probe": {
+      "local": "Sakura Link",
+      "zhongb-tail": "Sptel"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "SG",
+      "Singapore",
+      "新加坡"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.145.179:2087?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-014%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "probe_speeds_bps": {
+      "local": 580697.0,
+      "zhongb-tail": 407291.0
+    },
+    "probe_check_s": {
+      "local": 0.274459,
+      "zhongb-tail": 0.689927
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 407291.0,
+    "mainland_best_speed_bps": 407291.0,
+    "mainland_min_speed_bps": 407291.0,
+    "min_speed_bps": 407291.0,
+    "avg_speed_bps": 493994.0,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
@@ -1640,12 +541,12 @@
       "zhongb-tail": "US"
     },
     "observed_ip_by_probe": {
-      "local": "64.227.109.151",
-      "zhongb-tail": "149.28.56.202"
+      "local": "64.83.15.129",
+      "zhongb-tail": "64.83.15.129"
     },
     "observed_org_by_probe": {
-      "local": "Digital Ocean",
-      "zhongb-tail": "Vultr"
+      "local": "NetLab Global",
+      "zhongb-tail": "NetLab Global"
     },
     "observed_country_match_by_probe": {
       "local": true,
@@ -1658,76 +559,76 @@
       "USA",
       "美国"
     ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.158.247:2053?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-009%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.18.33.4:2087?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-009%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 563938.0,
-      "zhongb-tail": 276591.0
+      "local": 588296.0,
+      "zhongb-tail": 406370.0
     },
     "probe_check_s": {
-      "local": 0.304651,
-      "zhongb-tail": 0.884638
+      "local": 0.410385,
+      "zhongb-tail": 1.09224
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 276591.0,
-    "mainland_best_speed_bps": 276591.0,
-    "mainland_min_speed_bps": 276591.0,
-    "min_speed_bps": 276591.0,
-    "avg_speed_bps": 420264.5,
+    "priority_speed_bps": 406370.0,
+    "mainland_best_speed_bps": 406370.0,
+    "mainland_min_speed_bps": 406370.0,
+    "min_speed_bps": 406370.0,
+    "avg_speed_bps": 497333.0,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
   },
   {
-    "name": "edge2-us-005|US|美国|United States|USA|CF官方优选5",
-    "source": "edge2-us",
+    "name": "reedge-002|CF官方优选",
+    "source": "reedge",
     "protocol": "vless-ws-cdn",
     "stability_rank": 90,
     "country": "US",
-    "expected_country": "US",
+    "expected_country": "",
     "observed_country_by_probe": {
-      "local": "SC",
+      "local": "US",
       "zhongb-tail": "US"
     },
     "observed_ip_by_probe": {
-      "local": "45.203.217.25",
-      "zhongb-tail": "104.238.129.180"
+      "local": "104.168.76.144",
+      "zhongb-tail": "107.174.131.32"
     },
     "observed_org_by_probe": {
-      "local": "Turing Group",
-      "zhongb-tail": "Vultr"
+      "local": "HostPapa",
+      "zhongb-tail": "HostPapa"
     },
     "observed_country_match_by_probe": {
       "local": false,
-      "zhongb-tail": true
+      "zhongb-tail": false
     },
-    "region_label": "美国",
+    "region_label": "",
     "tags": [
       "US",
       "United States",
       "USA",
       "美国"
     ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.54.31:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge2-us-005%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@8.39.125.163:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-002%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 561058.0,
-      "zhongb-tail": 270233.0
+      "local": 580446.0,
+      "zhongb-tail": 405942.0
     },
     "probe_check_s": {
-      "local": 0.401259,
-      "zhongb-tail": 1.089798
+      "local": 0.390255,
+      "zhongb-tail": 0.879475
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 270233.0,
-    "mainland_best_speed_bps": 270233.0,
-    "mainland_min_speed_bps": 270233.0,
-    "min_speed_bps": 270233.0,
-    "avg_speed_bps": 415645.5,
+    "priority_speed_bps": 405942.0,
+    "mainland_best_speed_bps": 405942.0,
+    "mainland_min_speed_bps": 405942.0,
+    "min_speed_bps": 405942.0,
+    "avg_speed_bps": 493194.0,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
   },
   {
-    "name": "edge2-006|SG|新加坡|Singapore|CF官方优选6",
+    "name": "edge2-002|SG|新加坡|Singapore|CF官方优选2",
     "source": "edge2",
     "protocol": "vless-ws-cdn",
     "stability_rank": 90,
@@ -1738,12 +639,12 @@
       "zhongb-tail": "US"
     },
     "observed_ip_by_probe": {
-      "local": "45.139.226.92",
-      "zhongb-tail": "95.169.10.248"
+      "local": "165.22.110.8",
+      "zhongb-tail": "154.36.137.155"
     },
     "observed_org_by_probe": {
-      "local": "SpeedyPage Ltd",
-      "zhongb-tail": "IT7 Networks Inc"
+      "local": "Digital Ocean",
+      "zhongb-tail": "NetLab Global"
     },
     "observed_country_match_by_probe": {
       "local": true,
@@ -1756,27 +657,368 @@
       "USA",
       "美国"
     ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.32.182:443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-006%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@91.193.59.230:2053?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-002%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
     "probe_speeds_bps": {
-      "local": 554290.0,
-      "zhongb-tail": 263138.0
+      "local": 580847.0,
+      "zhongb-tail": 405690.0
     },
     "probe_check_s": {
-      "local": 0.413934,
-      "zhongb-tail": 1.581238
+      "local": 0.387692,
+      "zhongb-tail": 0.690254
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 263138.0,
-    "mainland_best_speed_bps": 263138.0,
-    "mainland_min_speed_bps": 263138.0,
-    "min_speed_bps": 263138.0,
-    "avg_speed_bps": 408714.0,
+    "priority_speed_bps": 405690.0,
+    "mainland_best_speed_bps": 405690.0,
+    "mainland_min_speed_bps": 405690.0,
+    "min_speed_bps": 405690.0,
+    "avg_speed_bps": 493268.5,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
   },
   {
-    "name": "edge3-jp-010|JP|日本|Japan|CF官方优选10",
+    "name": "edge2-hk-008|HK|香港|Hong Kong|CF官方优选8",
+    "source": "edge2-hk",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "HK",
+    "expected_country": "HK",
+    "observed_country_by_probe": {
+      "local": "HK",
+      "zhongb-tail": "HK"
+    },
+    "observed_ip_by_probe": {
+      "local": "8.210.29.68",
+      "zhongb-tail": "185.206.171.53"
+    },
+    "observed_org_by_probe": {
+      "local": "Alibaba",
+      "zhongb-tail": "YottaSrc"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "香港",
+    "tags": [
+      "HK",
+      "Hong Kong",
+      "香港"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.150.247:2053?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-008%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "probe_speeds_bps": {
+      "local": 579322.0,
+      "zhongb-tail": 405689.0
+    },
+    "probe_check_s": {
+      "local": 0.243119,
+      "zhongb-tail": 0.861215
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 405689.0,
+    "mainland_best_speed_bps": 405689.0,
+    "mainland_min_speed_bps": 405689.0,
+    "min_speed_bps": 405689.0,
+    "avg_speed_bps": 492505.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-us-007|US|美国|United States|USA|CF官方优选7",
+    "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "66.42.108.104",
+      "zhongb-tail": "64.83.15.129"
+    },
+    "observed_org_by_probe": {
+      "local": "Vultr",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.16.252.175:2087?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-007%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 570898.0,
+      "zhongb-tail": 405622.0
+    },
+    "probe_check_s": {
+      "local": 0.368774,
+      "zhongb-tail": 0.878469
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 405622.0,
+    "mainland_best_speed_bps": 405622.0,
+    "mainland_min_speed_bps": 405622.0,
+    "min_speed_bps": 405622.0,
+    "avg_speed_bps": 488260.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-002|SG|新加坡|Singapore|CF官方优选2",
+    "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "SG",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "SG"
+    },
+    "observed_ip_by_probe": {
+      "local": "152.175.67.191",
+      "zhongb-tail": "152.175.67.191"
+    },
+    "observed_org_by_probe": {
+      "local": "Sakura Link",
+      "zhongb-tail": "Sakura Link"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "SG",
+      "Singapore",
+      "新加坡"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.107.81:8443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-002%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "probe_speeds_bps": {
+      "local": 566780.0,
+      "zhongb-tail": 392892.0
+    },
+    "probe_check_s": {
+      "local": 0.391298,
+      "zhongb-tail": 0.490055
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 392892.0,
+    "mainland_best_speed_bps": 392892.0,
+    "mainland_min_speed_bps": 392892.0,
+    "min_speed_bps": 392892.0,
+    "avg_speed_bps": 479836.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "reedge-004|CF官方优选",
+    "source": "reedge",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "107.174.131.32",
+      "zhongb-tail": "107.174.131.32"
+    },
+    "observed_org_by_probe": {
+      "local": "HostPapa",
+      "zhongb-tail": "HostPapa"
+    },
+    "observed_country_match_by_probe": {
+      "local": false,
+      "zhongb-tail": false
+    },
+    "region_label": "",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.218.102:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-004%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 576996.0,
+      "zhongb-tail": 391714.0
+    },
+    "probe_check_s": {
+      "local": 0.381458,
+      "zhongb-tail": 0.702344
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 391714.0,
+    "mainland_best_speed_bps": 391714.0,
+    "mainland_min_speed_bps": 391714.0,
+    "min_speed_bps": 391714.0,
+    "avg_speed_bps": 484355.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-us-004|US|美国|United States|USA|CF官方优选4",
+    "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "154.36.137.155",
+      "zhongb-tail": "66.42.108.104"
+    },
+    "observed_org_by_probe": {
+      "local": "NetLab Global",
+      "zhongb-tail": "Vultr"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@188.164.248.184:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-004%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 570580.0,
+      "zhongb-tail": 390978.0
+    },
+    "probe_check_s": {
+      "local": 0.42162,
+      "zhongb-tail": 0.690789
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 390978.0,
+    "mainland_best_speed_bps": 390978.0,
+    "mainland_min_speed_bps": 390978.0,
+    "min_speed_bps": 390978.0,
+    "avg_speed_bps": 480779.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "reedge-003|CF官方优选",
+    "source": "reedge",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "107.174.131.32",
+      "zhongb-tail": "107.174.131.32"
+    },
+    "observed_org_by_probe": {
+      "local": "HostPapa",
+      "zhongb-tail": "HostPapa"
+    },
+    "observed_country_match_by_probe": {
+      "local": false,
+      "zhongb-tail": false
+    },
+    "region_label": "",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://95384f22-ef5f-4f5e-83af-d6998cc4244d@104.17.108.188:443?security=tls&type=ws&host=reedge.akkk.qzz.io&fp=chrome&sni=reedge.akkk.qzz.io&path=%2Fsub&encryption=none&insecure=1&allowInsecure=1#reedge-003%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 562493.0,
+      "zhongb-tail": 390917.0
+    },
+    "probe_check_s": {
+      "local": 0.375727,
+      "zhongb-tail": 1.282169
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 390917.0,
+    "mainland_best_speed_bps": 390917.0,
+    "mainland_min_speed_bps": 390917.0,
+    "min_speed_bps": 390917.0,
+    "avg_speed_bps": 476705.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-013|SG|新加坡|Singapore|CF官方优选13",
+    "source": "edge2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "165.22.110.8",
+      "zhongb-tail": "154.36.137.155"
+    },
+    "observed_org_by_probe": {
+      "local": "Digital Ocean",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": false
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.213.145:443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-013%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 574949.0,
+      "zhongb-tail": 388862.0
+    },
+    "probe_check_s": {
+      "local": 0.382157,
+      "zhongb-tail": 0.783125
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 388862.0,
+    "mainland_best_speed_bps": 388862.0,
+    "mainland_min_speed_bps": 388862.0,
+    "min_speed_bps": 388862.0,
+    "avg_speed_bps": 481905.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-jp-002|JP|日本|Japan|CF官方优选2",
     "source": "edge3-jp",
     "protocol": "vless-ws-cdn",
     "stability_rank": 90,
@@ -1787,8 +1029,736 @@
       "zhongb-tail": "JP"
     },
     "observed_ip_by_probe": {
-      "local": "141.147.185.63",
-      "zhongb-tail": "138.2.31.37"
+      "local": "8.221.172.1",
+      "zhongb-tail": "8.221.172.1"
+    },
+    "observed_org_by_probe": {
+      "local": "Alibaba",
+      "zhongb-tail": "Alibaba"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "日本",
+    "tags": [
+      "JP",
+      "Japan",
+      "日本"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.19.34.225:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge3-jp-002%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "probe_speeds_bps": {
+      "local": 571747.0,
+      "zhongb-tail": 388558.0
+    },
+    "probe_check_s": {
+      "local": 0.228475,
+      "zhongb-tail": 1.367636
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 388558.0,
+    "mainland_best_speed_bps": 388558.0,
+    "mainland_min_speed_bps": 388558.0,
+    "min_speed_bps": 388558.0,
+    "avg_speed_bps": 480152.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-jp-001|JP|日本|Japan|CF官方优选1",
+    "source": "edge2-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "JP",
+    "expected_country": "JP",
+    "observed_country_by_probe": {
+      "local": "JP",
+      "zhongb-tail": "JP"
+    },
+    "observed_ip_by_probe": {
+      "local": "45.8.173.215",
+      "zhongb-tail": "141.147.182.70"
+    },
+    "observed_org_by_probe": {
+      "local": "Panstar Cloud",
+      "zhongb-tail": "Oracle Cloud"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "日本",
+    "tags": [
+      "JP",
+      "Japan",
+      "日本"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.145.61:2083?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge2-jp-001%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "probe_speeds_bps": {
+      "local": 572424.0,
+      "zhongb-tail": 381349.0
+    },
+    "probe_check_s": {
+      "local": 0.243377,
+      "zhongb-tail": 0.81246
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 381349.0,
+    "mainland_best_speed_bps": 381349.0,
+    "mainland_min_speed_bps": 381349.0,
+    "min_speed_bps": 381349.0,
+    "avg_speed_bps": 476886.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-us-009|US|美国|United States|USA|CF官方优选9",
+    "source": "edge2-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "154.36.137.155",
+      "zhongb-tail": "154.36.137.155"
+    },
+    "observed_org_by_probe": {
+      "local": "NetLab Global",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@172.66.1.183:443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge2-us-009%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 584570.0,
+      "zhongb-tail": 377353.0
+    },
+    "probe_check_s": {
+      "local": 0.376087,
+      "zhongb-tail": 0.751514
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 377353.0,
+    "mainland_best_speed_bps": 377353.0,
+    "mainland_min_speed_bps": 377353.0,
+    "min_speed_bps": 377353.0,
+    "avg_speed_bps": 480961.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-us-010|US|美国|United States|USA|CF官方优选10",
+    "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "64.83.15.129",
+      "zhongb-tail": "64.83.15.129"
+    },
+    "observed_org_by_probe": {
+      "local": "NetLab Global",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.16.152.86:2083?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-010%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 572160.0,
+      "zhongb-tail": 377035.0
+    },
+    "probe_check_s": {
+      "local": 0.232743,
+      "zhongb-tail": 0.792446
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 377035.0,
+    "mainland_best_speed_bps": 377035.0,
+    "mainland_min_speed_bps": 377035.0,
+    "min_speed_bps": 377035.0,
+    "avg_speed_bps": 474597.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-us-008|US|美国|United States|USA|CF官方优选8",
+    "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "66.42.108.104",
+      "zhongb-tail": "64.83.15.129"
+    },
+    "observed_org_by_probe": {
+      "local": "Vultr",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.18.33.154:2053?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-008%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 579792.0,
+      "zhongb-tail": 376456.0
+    },
+    "probe_check_s": {
+      "local": 0.364531,
+      "zhongb-tail": 0.781707
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 376456.0,
+    "mainland_best_speed_bps": 376456.0,
+    "mainland_min_speed_bps": 376456.0,
+    "min_speed_bps": 376456.0,
+    "avg_speed_bps": 478124.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-016|SG|新加坡|Singapore|CF官方优选16",
+    "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "SG",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "SG"
+    },
+    "observed_ip_by_probe": {
+      "local": "61.13.236.181",
+      "zhongb-tail": "152.175.67.191"
+    },
+    "observed_org_by_probe": {
+      "local": "Sptel",
+      "zhongb-tail": "Sakura Link"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "SG",
+      "Singapore",
+      "新加坡"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.19.55.209:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-016%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "probe_speeds_bps": {
+      "local": 573278.0,
+      "zhongb-tail": 376382.0
+    },
+    "probe_check_s": {
+      "local": 0.240003,
+      "zhongb-tail": 0.778878
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 376382.0,
+    "mainland_best_speed_bps": 376382.0,
+    "mainland_min_speed_bps": 376382.0,
+    "min_speed_bps": 376382.0,
+    "avg_speed_bps": 474830.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-011|SG|新加坡|Singapore|CF官方优选11",
+    "source": "edge2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "45.32.127.54",
+      "zhongb-tail": "154.36.137.155"
+    },
+    "observed_org_by_probe": {
+      "local": "Vultr",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": false
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@91.193.59.230:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-011%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 576195.0,
+      "zhongb-tail": 376181.0
+    },
+    "probe_check_s": {
+      "local": 0.373179,
+      "zhongb-tail": 1.083139
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 376181.0,
+    "mainland_best_speed_bps": 376181.0,
+    "mainland_min_speed_bps": 376181.0,
+    "min_speed_bps": 376181.0,
+    "avg_speed_bps": 476188.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-004|SG|新加坡|Singapore|CF官方优选4",
+    "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "SG",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "SG"
+    },
+    "observed_ip_by_probe": {
+      "local": "152.175.67.191",
+      "zhongb-tail": "61.13.236.181"
+    },
+    "observed_org_by_probe": {
+      "local": "Sakura Link",
+      "zhongb-tail": "Sptel"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "SG",
+      "Singapore",
+      "新加坡"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.16.150.41:2053?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-004%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "probe_speeds_bps": {
+      "local": 571182.0,
+      "zhongb-tail": 376051.0
+    },
+    "probe_check_s": {
+      "local": 0.380679,
+      "zhongb-tail": 0.880372
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 376051.0,
+    "mainland_best_speed_bps": 376051.0,
+    "mainland_min_speed_bps": 376051.0,
+    "min_speed_bps": 376051.0,
+    "avg_speed_bps": 473616.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-us-005|US|美国|United States|USA|CF官方优选5",
+    "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "64.83.15.129",
+      "zhongb-tail": "66.42.108.104"
+    },
+    "observed_org_by_probe": {
+      "local": "NetLab Global",
+      "zhongb-tail": "Vultr"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.168.37:2083?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-005%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 562562.0,
+      "zhongb-tail": 364445.0
+    },
+    "probe_check_s": {
+      "local": 0.37669,
+      "zhongb-tail": 0.888671
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 364445.0,
+    "mainland_best_speed_bps": 364445.0,
+    "mainland_min_speed_bps": 364445.0,
+    "min_speed_bps": 364445.0,
+    "avg_speed_bps": 463503.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-jp-003|JP|日本|Japan|CF官方优选3",
+    "source": "edge2-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "JP",
+    "expected_country": "JP",
+    "observed_country_by_probe": {
+      "local": "JP",
+      "zhongb-tail": "JP"
+    },
+    "observed_ip_by_probe": {
+      "local": "45.192.206.83",
+      "zhongb-tail": "45.192.206.83"
+    },
+    "observed_org_by_probe": {
+      "local": "Akile",
+      "zhongb-tail": "Akile"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "日本",
+    "tags": [
+      "JP",
+      "Japan",
+      "日本"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.126.105:2053?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge2-jp-003%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "probe_speeds_bps": {
+      "local": 561588.0,
+      "zhongb-tail": 364353.0
+    },
+    "probe_check_s": {
+      "local": 0.596044,
+      "zhongb-tail": 1.080642
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 364353.0,
+    "mainland_best_speed_bps": 364353.0,
+    "mainland_min_speed_bps": 364353.0,
+    "min_speed_bps": 364353.0,
+    "avg_speed_bps": 462970.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-015|SG|新加坡|Singapore|CF官方优选15",
+    "source": "edge3",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "SG",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "SG"
+    },
+    "observed_ip_by_probe": {
+      "local": "152.175.67.191",
+      "zhongb-tail": "61.13.236.181"
+    },
+    "observed_org_by_probe": {
+      "local": "Sakura Link",
+      "zhongb-tail": "Sptel"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "SG",
+      "Singapore",
+      "新加坡"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.175.103:443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2F&encryption=none#edge3-015%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "probe_speeds_bps": {
+      "local": 583483.0,
+      "zhongb-tail": 354451.0
+    },
+    "probe_check_s": {
+      "local": 0.377175,
+      "zhongb-tail": 0.80722
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 354451.0,
+    "mainland_best_speed_bps": 354451.0,
+    "mainland_min_speed_bps": 354451.0,
+    "min_speed_bps": 354451.0,
+    "avg_speed_bps": 468967.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-us-003|US|美国|United States|USA|CF官方优选3",
+    "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "154.36.137.155",
+      "zhongb-tail": "154.36.137.155"
+    },
+    "observed_org_by_probe": {
+      "local": "NetLab Global",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.20.22:443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-003%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 559972.0,
+      "zhongb-tail": 352200.0
+    },
+    "probe_check_s": {
+      "local": 0.287138,
+      "zhongb-tail": 0.787406
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 352200.0,
+    "mainland_best_speed_bps": 352200.0,
+    "mainland_min_speed_bps": 352200.0,
+    "min_speed_bps": 352200.0,
+    "avg_speed_bps": 456086.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-us-002|US|美国|United States|USA|CF官方优选2",
+    "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "154.36.137.155",
+      "zhongb-tail": "66.42.108.104"
+    },
+    "observed_org_by_probe": {
+      "local": "NetLab Global",
+      "zhongb-tail": "Vultr"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.169.108:2083?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-002%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 564909.0,
+      "zhongb-tail": 351683.0
+    },
+    "probe_check_s": {
+      "local": 0.414372,
+      "zhongb-tail": 1.184924
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 351683.0,
+    "mainland_best_speed_bps": 351683.0,
+    "mainland_min_speed_bps": 351683.0,
+    "min_speed_bps": 351683.0,
+    "avg_speed_bps": 458296.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-004|SG|新加坡|Singapore|CF官方优选4",
+    "source": "edge2",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "SG",
+    "expected_country": "SG",
+    "observed_country_by_probe": {
+      "local": "SG",
+      "zhongb-tail": "SG"
+    },
+    "observed_ip_by_probe": {
+      "local": "165.22.110.8",
+      "zhongb-tail": "165.22.110.8"
+    },
+    "observed_org_by_probe": {
+      "local": "Digital Ocean",
+      "zhongb-tail": "Digital Ocean"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "新加坡",
+    "tags": [
+      "SG",
+      "Singapore",
+      "新加坡"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.50.221:2083?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-004%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
+    "probe_speeds_bps": {
+      "local": 571677.0,
+      "zhongb-tail": 351259.0
+    },
+    "probe_check_s": {
+      "local": 0.241708,
+      "zhongb-tail": 0.980162
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 351259.0,
+    "mainland_best_speed_bps": 351259.0,
+    "mainland_min_speed_bps": 351259.0,
+    "min_speed_bps": 351259.0,
+    "avg_speed_bps": 461468.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-us-005|US|美国|United States|USA|CF官方优选5",
+    "source": "edge2-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "154.36.137.155",
+      "zhongb-tail": "154.36.137.155"
+    },
+    "observed_org_by_probe": {
+      "local": "NetLab Global",
+      "zhongb-tail": "NetLab Global"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.50.170:443?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge2-us-005%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 572321.0,
+      "zhongb-tail": 340444.0
+    },
+    "probe_check_s": {
+      "local": 0.243468,
+      "zhongb-tail": 0.77569
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 340444.0,
+    "mainland_best_speed_bps": 340444.0,
+    "mainland_min_speed_bps": 340444.0,
+    "min_speed_bps": 340444.0,
+    "avg_speed_bps": 456382.5,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge2-jp-008|JP|日本|Japan|CF官方优选8",
+    "source": "edge2-jp",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "JP",
+    "expected_country": "JP",
+    "observed_country_by_probe": {
+      "local": "JP",
+      "zhongb-tail": "JP"
+    },
+    "observed_ip_by_probe": {
+      "local": "141.147.182.70",
+      "zhongb-tail": "161.33.131.94"
     },
     "observed_org_by_probe": {
       "local": "Oracle Cloud",
@@ -1804,75 +1774,75 @@
       "Japan",
       "日本"
     ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.26.6.72:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge3-jp-010%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.147.129:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.jp.fxxk.dedyn.io&encryption=none#edge2-jp-008%7CJP%7CJapan%7C%E6%97%A5%E6%9C%AC",
     "probe_speeds_bps": {
-      "local": 553835.0,
-      "zhongb-tail": 245003.0
+      "local": 571622.0,
+      "zhongb-tail": 329946.0
     },
     "probe_check_s": {
-      "local": 0.472285,
-      "zhongb-tail": 1.192008
+      "local": 0.274525,
+      "zhongb-tail": 0.785318
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 245003.0,
-    "mainland_best_speed_bps": 245003.0,
-    "mainland_min_speed_bps": 245003.0,
-    "min_speed_bps": 245003.0,
-    "avg_speed_bps": 399419.0,
+    "priority_speed_bps": 329946.0,
+    "mainland_best_speed_bps": 329946.0,
+    "mainland_min_speed_bps": 329946.0,
+    "min_speed_bps": 329946.0,
+    "avg_speed_bps": 450784.0,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
   },
   {
-    "name": "edge3-hk-005|HK|香港|Hong Kong|CF官方优选5",
-    "source": "edge3-hk",
+    "name": "edge2-006|SG|新加坡|Singapore|CF官方优选6",
+    "source": "edge2",
     "protocol": "vless-ws-cdn",
     "stability_rank": 90,
-    "country": "HK",
-    "expected_country": "HK",
+    "country": "SG",
+    "expected_country": "SG",
     "observed_country_by_probe": {
       "local": "SG",
-      "zhongb-tail": "HK"
+      "zhongb-tail": "SG"
     },
     "observed_ip_by_probe": {
-      "local": "43.168.146.240",
-      "zhongb-tail": "45.202.248.172"
+      "local": "45.32.127.54",
+      "zhongb-tail": "165.22.110.8"
     },
     "observed_org_by_probe": {
-      "local": "ACE CDN",
-      "zhongb-tail": "Akile"
+      "local": "Vultr",
+      "zhongb-tail": "Digital Ocean"
     },
     "observed_country_match_by_probe": {
-      "local": false,
+      "local": true,
       "zhongb-tail": true
     },
-    "region_label": "香港",
+    "region_label": "新加坡",
     "tags": [
-      "HK",
-      "Hong Kong",
-      "香港"
+      "SG",
+      "Singapore",
+      "新加坡"
     ],
-    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@172.66.1.148:8443?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge3-hk-005%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.19.144.177:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2F&encryption=none#edge2-006%7CSG%7CSingapore%7C%E6%96%B0%E5%8A%A0%E5%9D%A1",
     "probe_speeds_bps": {
-      "local": 560831.0,
-      "zhongb-tail": 244922.0
+      "local": 566337.0,
+      "zhongb-tail": 329799.0
     },
     "probe_check_s": {
-      "local": 0.448533,
-      "zhongb-tail": 1.287352
+      "local": 0.237422,
+      "zhongb-tail": 0.686344
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 244922.0,
-    "mainland_best_speed_bps": 244922.0,
-    "mainland_min_speed_bps": 244922.0,
-    "min_speed_bps": 244922.0,
-    "avg_speed_bps": 402876.5,
+    "priority_speed_bps": 329799.0,
+    "mainland_best_speed_bps": 329799.0,
+    "mainland_min_speed_bps": 329799.0,
+    "min_speed_bps": 329799.0,
+    "avg_speed_bps": 448068.0,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
   },
   {
-    "name": "edge2-hk-010|HK|香港|Hong Kong|CF官方优选10",
+    "name": "edge2-hk-001|HK|香港|Hong Kong|CF官方优选1",
     "source": "edge2-hk",
     "protocol": "vless-ws-cdn",
     "stability_rank": 90,
@@ -1883,11 +1853,11 @@
       "zhongb-tail": "HK"
     },
     "observed_ip_by_probe": {
-      "local": "103.219.193.95",
-      "zhongb-tail": "47.239.4.246"
+      "local": "8.210.29.68",
+      "zhongb-tail": "8.210.29.68"
     },
     "observed_org_by_probe": {
-      "local": "Bage Cloud",
+      "local": "Alibaba",
       "zhongb-tail": "Alibaba"
     },
     "observed_country_match_by_probe": {
@@ -1900,21 +1870,70 @@
       "Hong Kong",
       "香港"
     ],
-    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@104.17.217.234:2083?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-010%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
+    "line": "vless://b5675b45-9c15-4092-b55e-72c4d68c520e@188.164.248.204:2087?security=tls&type=ws&host=e.abbb.qzz.io&fp=chrome&sni=e.abbb.qzz.io&path=%2Fproxyip%3Dproxyip.hk.fxxk.dedyn.io&encryption=none#edge2-hk-001%7CHK%7CHong%20Kong%7C%E9%A6%99%E6%B8%AF",
     "probe_speeds_bps": {
-      "local": 558759.0,
-      "zhongb-tail": 241866.0
+      "local": 574636.0,
+      "zhongb-tail": 319324.0
     },
     "probe_check_s": {
-      "local": 0.498919,
-      "zhongb-tail": 1.525079
+      "local": 0.427707,
+      "zhongb-tail": 0.875178
     },
     "priority_probe": "zhongb-tail",
-    "priority_speed_bps": 241866.0,
-    "mainland_best_speed_bps": 241866.0,
-    "mainland_min_speed_bps": 241866.0,
-    "min_speed_bps": 241866.0,
-    "avg_speed_bps": 400312.5,
+    "priority_speed_bps": 319324.0,
+    "mainland_best_speed_bps": 319324.0,
+    "mainland_min_speed_bps": 319324.0,
+    "min_speed_bps": 319324.0,
+    "avg_speed_bps": 446980.0,
+    "mainland_confirmed_by": [
+      "zhongb-tail"
+    ]
+  },
+  {
+    "name": "edge3-us-001|US|美国|United States|USA|CF官方优选1",
+    "source": "edge3-us",
+    "protocol": "vless-ws-cdn",
+    "stability_rank": 90,
+    "country": "US",
+    "expected_country": "US",
+    "observed_country_by_probe": {
+      "local": "US",
+      "zhongb-tail": "US"
+    },
+    "observed_ip_by_probe": {
+      "local": "154.36.137.155",
+      "zhongb-tail": "66.42.108.104"
+    },
+    "observed_org_by_probe": {
+      "local": "NetLab Global",
+      "zhongb-tail": "Vultr"
+    },
+    "observed_country_match_by_probe": {
+      "local": true,
+      "zhongb-tail": true
+    },
+    "region_label": "美国",
+    "tags": [
+      "US",
+      "United States",
+      "USA",
+      "美国"
+    ],
+    "line": "vless://9f075edb-92af-4522-b488-f3f17de5a2e6@104.17.175.215:2096?security=tls&type=ws&host=e.axxx.qzz.io&fp=chrome&sni=e.axxx.qzz.io&path=%2Fproxyip%3Dproxyip.us.fxxk.dedyn.io&encryption=none#edge3-us-001%7CUS%7CUnited%20States%7CUSA%7C%E7%BE%8E%E5%9B%BD",
+    "probe_speeds_bps": {
+      "local": 573905.0,
+      "zhongb-tail": 319040.0
+    },
+    "probe_check_s": {
+      "local": 0.281285,
+      "zhongb-tail": 0.883116
+    },
+    "priority_probe": "zhongb-tail",
+    "priority_speed_bps": 319040.0,
+    "mainland_best_speed_bps": 319040.0,
+    "mainland_min_speed_bps": 319040.0,
+    "min_speed_bps": 319040.0,
+    "avg_speed_bps": 446472.5,
     "mainland_confirmed_by": [
       "zhongb-tail"
     ]
